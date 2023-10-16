@@ -1,0 +1,12 @@
+.BackgroundImage {
+    background-image: url(/src/Pic/1.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.MainBackgroundImage {
+    background-image: url(/src/Pic/21.png);
+    background-size: cover;
+    background-position: center;
+}
