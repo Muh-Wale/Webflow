@@ -1,11 +1,18 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+// import { BrowserRouter, Routes, Poute } from 'react-router-dom/cjs/react-router-dom.min'
 import './App.css'
-import Error from './Error/Error'
 
 function App() {
 
   return (
     <div>
-      <Error/>
+      <BrowserRouter>
+        <Routes>
+          <Route>
+            
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   )
 }
