@@ -1,11 +1,11 @@
 import './App.css'
-import Checkout from './Checkout/Checkout'
+import Error from './Error/Error'
 
 function App() {
 
   return (
     <div>
-      <Checkout/>
+      <Error/>
     </div>
   )
 }
