@@ -6,12 +6,12 @@ const HBody = () => {
     return (
         <div className='max-w-[1640px] mx-auto px-5 md:px-14 lg:px-24'>
             <div className='py-20 max-w-[1300px] mx-auto'>
-                <div className='block lg:grid lg:grid-cols-4 w-full lg:gap-2 lg:static'>
+                <div className='block lg:grid md:grid-cols-7 lg:grid-cols-4 w-full lg:gap-2 lg:static'>
                     <div className='lg:col-span-2 grid place-content-center lg:block'>
                         <img src="/src/Pic/2.png" alt="/" className='w-[460px] md:w-[500px] lg:w-fit'/>
                     </div>
                     <div 
-                        className='col-span-2 flex flex-col justify-center w-[330px] md:max-w-[420px] lg:max-w-fit items-center lg:items-stretch mx-auto lg:mx-0 p-5 lg:p-0 bg-gray-50 lg:bg-inherit rounded relative z-10 top-[-20px] lg:static'
+                        className='col-span-2 flex flex-col justify-center w-[330px] md:w-full md:max-w-[420px] lg:max-w-fit items-center md:items-stretch mx-auto lg:mx-0 p-5 lg:p-0 bg-gray-50 lg:bg-inherit rounded relative z-10 top-[-20px] md:static'
                     >
                         <div>
                             <h1 className='text-xl sm:text-2xl md:text-4xl font-semibold'>Everything to solve your</h1>
