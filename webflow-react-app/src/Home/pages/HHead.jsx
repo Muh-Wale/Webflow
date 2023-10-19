@@ -21,12 +21,12 @@ const HHead = () => {
                             </a>
                             <div className='ml-14 hidden lg:flex'>
                                 <ul className='text-white flex gap-5 font-medium'>
-                                    <Link to="/services" className=' hover:text-[#FC5623] duration-100'>Services</Link>
-                                    <Link to="/projects" className=' hover:text-[#FC5623] duration-100'>Projects</Link>
-                                    <Link to="/about" className=' hover:text-[#FC5623] duration-100'>About</Link>
-                                    <Link to="/shop" className=' hover:text-[#FC5623] duration-100'>Shop</Link>
-                                    <Link to="/blog" className=' hover:text-[#FC5623] duration-100'>Blog</Link>
-                                    <Link to="/contact" className=' hover:text-[#FC5623] duration-100'>Contact</Link>
+                                    <Link to="/services" className=' hover:text-[#FC5623] duration-150'>Services</Link>
+                                    <Link to="/projects" className=' hover:text-[#FC5623] duration-15'>Projects</Link>
+                                    <Link to="/about" className=' hover:text-[#FC5623] duration-150'>About</Link>
+                                    <Link to="/shop" className=' hover:text-[#FC5623] duration-150'>Shop</Link>
+                                    <Link to="/blog" className=' hover:text-[#FC5623] duration-150'>Blog</Link>
+                                    <Link to="/contact" className=' hover:text-[#FC5623] duration-150'>Contact</Link>
                                 </ul>
                             </div>
                         </div>

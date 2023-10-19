@@ -45,9 +45,9 @@ const HFooter = () => {
                         <h1 className='font-semibold text-lg'>Shop Categories</h1>
                         <div className='pt-4 text-sm font-medium'>
                             <ul>
-                                <li className='pb-3 hover:text-[#FC5623] duration-100 cursor-pointer'>Safety Equipment</li>
-                                <li className='pb-3 hover:text-[#FC5623] duration-100 cursor-pointer'>Wrenches</li>
-                                <li className='pb-3 hover:text-[#FC5623] duration-100 cursor-pointer'>Power Tools</li>
+                                <li className='pb-3 hover:text-[#FC5623] duration-100 cursor-pointer w-fit'>Safety Equipment</li>
+                                <li className='pb-3 hover:text-[#FC5623] duration-100 cursor-pointer w-fit'>Wrenches</li>
+                                <li className='pb-3 hover:text-[#FC5623] duration-100 cursor-pointer w-fit'>Power Tools</li>
                             </ul>
                         </div>
                     </div>
@@ -55,9 +55,9 @@ const HFooter = () => {
                         <h1 className='font-semibold text-lg'>Template</h1>
                         <div className='pt-4 text-sm font-medium'>
                             <ul>
-                                <li className='pb-3 hover:text-[#FC5623] duration-100 cursor-pointer'>Change Log</li>
-                                <li className='pb-3 hover:text-[#FC5623] duration-100 cursor-pointer'>Licenses</li>
-                                <li className='pb-3 hover:text-[#FC5623] duration-100 cursor-pointer'>Styleguide</li>
+                                <li className='pb-3 hover:text-[#FC5623] duration-100 cursor-pointer w-fit'>Change Log</li>
+                                <li className='pb-3 hover:text-[#FC5623] duration-100 cursor-pointer w-fit'>Licenses</li>
+                                <li className='pb-3 hover:text-[#FC5623] duration-100 cursor-pointer w-fit'>Styleguide</li>
                             </ul>
                         </div>
                     </div>

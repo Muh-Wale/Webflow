@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
     return (
@@ -17,25 +18,25 @@ const Footer = () => {
                     <div className=''>
                         <h1 className='font-semibold text-lg'>Block Pages</h1>
                         <div className='flex gap-3 pt-4 text-sm font-medium'>
-                            <ul>
-                                <li className='pb-3'>Services</li>
-                                <li className='pb-3'>Blog</li>
-                                <li className='pb-3'>Contacts</li>
-                            </ul>
-                            <ul className=' pl-2 md:pl-8'>
-                                <li className='pb-3'>Projects</li>
-                                <li className='pb-3'>About</li>
-                                <li className='pb-3'>Shop</li>
-                            </ul>
+                            <div className='flex flex-col'>
+                                <Link to="/services" className=' hover:text-[#FC5623] duration-100 w-fit pb-3'>Services</Link>
+                                <Link to="/blog" className=' hover:text-[#FC5623] duration-100 w-fit pb-3'>Blog</Link>
+                                <Link to="/contact" className=' hover:text-[#FC5623] duration-100 w-fit pb-3'>Contact</Link>
+                            </div>
+                            <div className='flex flex-col pl-2 md:pl-8'>
+                                <Link to="/projects" className=' hover:text-[#FC5623] duration-100 w-fit pb-3'>Projects</Link>
+                                <Link to="/about" className=' hover:text-[#FC5623] duration-100 w-fit pb-3'>About</Link>
+                                <Link to="/shop" className=' hover:text-[#FC5623] duration-100 w-fit pb-3'>Shop</Link>
+                            </div>
                         </div>
                     </div>
                     <div className=''>
                         <h1 className='font-semibold text-lg'>Shop Categories</h1>
                         <div className='pt-4 text-sm font-medium'>
                             <ul>
-                                <li className='pb-3'>Safety Equipment</li>
-                                <li className='pb-3'>Wrenches</li>
-                                <li className='pb-3'>Power Tools</li>
+                                <li className='pb-3 hover:text-[#FC5623] duration-100 cursor-pointer w-fit'>Safety Equipment</li>
+                                <li className='pb-3 hover:text-[#FC5623] duration-100 cursor-pointer w-fit'>Wrenches</li>
+                                <li className='pb-3 hover:text-[#FC5623] duration-100 cursor-pointer w-fit'>Power Tools</li>
                             </ul>
                         </div>
                     </div>
@@ -43,9 +44,9 @@ const Footer = () => {
                         <h1 className='font-semibold text-lg'>Template</h1>
                         <div className='pt-4 text-sm font-medium'>
                             <ul>
-                                <li className='pb-3'>Change Log</li>
-                                <li className='pb-3'>Licenses</li>
-                                <li className='pb-3'>Styleguide</li>
+                                <li className='pb-3 hover:text-[#FC5623] duration-100 cursor-pointer w-fit'>Change Log</li>
+                                <li className='pb-3 hover:text-[#FC5623] duration-100 cursor-pointer w-fit'>Licenses</li>
+                                <li className='pb-3 hover:text-[#FC5623] duration-100 cursor-pointer w-fit'>Styleguide</li>
                             </ul>
                         </div>
                     </div>
@@ -54,7 +55,7 @@ const Footer = () => {
                         <div className='py-4 text-sm font-medium'>
                             <p>Duis pretium, nisi ut fermentum fringilla, nunc est fermentum erat</p>
                         </div>
-                        <div className='block md:flex lg:flex-wrap gap-2'>
+                        <div className='block md:flex gap-2'>
                             <input type="email" className='py-2 rounded px-2 bg-[#2C2925] w-full md:w-fit' placeholder='Email'/>
                             <div className='md:pt-0 pt-3'>
                                 <button className='bg-[#FC5623] text-white hover:bg-gray-200 hover:text-[#FC5623] py-2 px-3 rounded font-semibold focus:outline-none'>Subscribe</button>

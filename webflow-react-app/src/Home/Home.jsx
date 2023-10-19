@@ -1,4 +1,4 @@
-import React from 'react'
+
 import HHead from './pages/HHead'
 import HBody from './pages/HBody'
 import HService from './pages/HService'

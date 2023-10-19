@@ -33,7 +33,7 @@ const HBody = () => {
                                 </div>
                             </div>
                             <div className='pt-7 cursor-pointer'>
-                                <Link to="/services" className='text-white bg-[#FC5623] py-2 px-4 md:py-2 md:px-5 rounded font-semibold'>Our Services</Link>
+                                <Link to="/services" className='text-white bg-[#FC5623] py-2 px-4 md:py-2 md:px-5 rounded font-semibold hover:text-[#1C1A17]'>Our Services</Link>
                             </div>
                         </div>
                     </div>
@@ -44,7 +44,7 @@ const HBody = () => {
                 <div className='py-16 grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-6 lg:gap-12'>
                     <div>
                         <div className="relative">
-                            <img src="/src/Pic/3.png" alt="Picture" className="w-full" />
+                            <img src="/src/Pic/4.png" alt="Picture" className="w-full" />
                             <div className="px-3 py-1 rounded bg-white absolute top-2 right-2 z-10">
                                 <p className="">New</p>
                             </div>
@@ -56,13 +56,13 @@ const HBody = () => {
                     </div>
                     <div>
                         <div className="relative">
-                            <img src="/src/Pic/4.png" alt="Picture" className="w-full" />
+                            <img src="/src/Pic/3.png" alt="Picture" className="w-full" />
                             <div className="px-3 py-1 rounded bg-white absolute top-2 right-3 z-10">
                                 <p className="">New</p>
                             </div>
                             <div className="px-2 py-1 md:px-5 md:py-3 rounded bg-[#FC5623] absolute bottom-0 left-5 z-10 hover:scale-105 duration-200">
                                 <div className='flex gap-2 items-center text-white'>
-                                    <a href="/" className='text-sm'>Details</a>
+                                    <Link to="/shopsingle" className='text-sm'>Details</Link>
                                     <BsArrowRight/>
                                 </div>
                             </div>

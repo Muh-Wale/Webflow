@@ -14,7 +14,7 @@ const HService = () => {
                     <div><p className='leading-snug lg:leading-loose'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, corrupti la mason.</p></div>
                     <div className='flex justify-center'>
                         <div className='flex gap-2 pt-2 lg:pt-5 w-fit items-center justify-center cursor-pointer'>
-                            <Link to="/services" className=' font-semibold text-lg'>Details</Link>
+                            <Link to="/hometwo" className=' font-semibold text-lg'>Details</Link>
                             <BsArrowRight size={20}/>
                         </div>
                     </div>
@@ -36,7 +36,7 @@ const HService = () => {
                     <h1 className='text-4xl font-semibold text-white'>Real Guarantee For Your Safety</h1>
                     <p className='text-white py-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ad autem, aliquid accusamus possimus similique aperiam nulla aut ipsum voluptatem totam maiores consectetur. Ducimus, quos quia!</p>
                     <div className='cursor-pointer'>
-                        <button className='bg-white hover:text-white hover:bg-black py-2 px-4 md:py-2 md:px-5 rounded font-semibold'>Our Services</button>
+                        <Link to="/services" className='bg-white hover:text-white hover:bg-black py-2 px-4 md:py-2 md:px-5 rounded font-semibold'>Our Services</Link>
                     </div>
                 </div>
             </div>
