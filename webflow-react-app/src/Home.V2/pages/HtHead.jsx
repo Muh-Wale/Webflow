@@ -1,6 +1,7 @@
 import React, { useState }  from 'react'
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
 import { HiOutlineShoppingCart } from 'react-icons/hi';
+import { Link } from 'react-router-dom'
 import '/src/App.css'
 
 const HtHead = () => {
@@ -19,13 +20,13 @@ const HtHead = () => {
                                 <img src="/src/Pic/Head.png" alt="/" />
                             </a>
                             <div className='ml-14 hidden lg:flex'>
-                                <ul className='text-white flex gap-5'>
-                                    <li><a href="/">Services</a></li>
-                                    <li><a href="/">Projects</a></li>
-                                    <li><a href="/">About</a></li>
-                                    <li><a href="/">Shop</a></li>
-                                    <li><a href="/">Blog</a></li>
-                                    <li><a href="/">Contact</a></li>
+                                <ul className='text-white flex gap-5 font-medium'>
+                                    <Link to="/services" className=' hover:text-[#FC5623] duration-100'>Services</Link>
+                                    <Link to="/projects" className=' hover:text-[#FC5623] duration-100'>Projects</Link>
+                                    <Link to="/about" className=' hover:text-[#FC5623] duration-100'>About</Link>
+                                    <Link to="/shop" className=' hover:text-[#FC5623] duration-100'>Shop</Link>
+                                    <Link to="/blog" className=' hover:text-[#FC5623] duration-100'>Blog</Link>
+                                    <Link to="/contact" className=' hover:text-[#FC5623] duration-100'>Contact</Link>
                                 </ul>
                             </div>
                         </div>

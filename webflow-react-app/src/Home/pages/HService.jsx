@@ -1,5 +1,6 @@
 import React from 'react'
 import { BsArrowRight } from 'react-icons/bs'
+import { Link } from 'react-router-dom'
 
 const HService = () => {
     return (
@@ -11,9 +12,11 @@ const HService = () => {
                     </div>
                     <div className='py-2 lg:py-4'><h1 className='font-semibold text-xl'>Service One</h1></div>
                     <div><p className='leading-snug lg:leading-loose'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, corrupti la mason.</p></div>
-                    <div className='flex gap-2 pt-2 lg:pt-5 items-center justify-center'>
-                        <a href="/" className='font-semibold text-lg'>Details</a>
-                        <BsArrowRight size={20}/>
+                    <div className='flex justify-center'>
+                        <div className='flex gap-2 pt-2 lg:pt-5 w-fit items-center justify-center cursor-pointer'>
+                            <Link to="/services" className=' font-semibold text-lg'>Details</Link>
+                            <BsArrowRight size={20}/>
+                        </div>
                     </div>
                 </div>
                 <div className='bg-white rounded px-2 md:px-3 py-4 md:py-8 text-center col-span-2'>
@@ -22,9 +25,11 @@ const HService = () => {
                     </div>
                     <div className='py-2 lg:py-4'><h1 className='font-semibold text-xl'>Service Two</h1></div>
                     <div><p className='leading-snug lg:leading-loose'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, corrupti la mason.</p></div>
-                    <div className='flex gap-2 pt-2 lg:pt-5 items-center justify-center'>
-                        <a href="/" className='font-semibold text-lg'>Details</a>
-                        <BsArrowRight size={20}/>
+                    <div className='flex justify-center'>
+                        <div className='flex gap-2 pt-2 lg:pt-5 w-fit items-center justify-center cursor-pointer'>
+                            <Link to="/services" className=' font-semibold text-lg'>Details</Link>
+                            <BsArrowRight size={20}/>
+                        </div>
                     </div>
                 </div>
                 <div className='col-span-4 flex flex-col justify-center pl-0 pt-6 md:pl-12 md:pt-0'>

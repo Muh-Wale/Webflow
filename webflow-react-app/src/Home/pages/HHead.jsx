@@ -1,6 +1,7 @@
 import React, { useState }  from 'react'
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
 import { HiOutlineShoppingCart } from 'react-icons/hi';
+import { Link } from 'react-router-dom'
 import '/src/App.css'
 
 const HHead = () => {
@@ -19,13 +20,13 @@ const HHead = () => {
                                 <img src="/src/Pic/Head.png" alt="/" />
                             </a>
                             <div className='ml-14 hidden lg:flex'>
-                                <ul className='text-white flex gap-5'>
-                                    <li><a href="/">Services</a></li>
-                                    <li><a href="/">Projects</a></li>
-                                    <li><a href="/">About</a></li>
-                                    <li><a href="/">Shop</a></li>
-                                    <li><a href="/">Blog</a></li>
-                                    <li><a href="/">Contact</a></li>
+                                <ul className='text-white flex gap-5 font-medium'>
+                                    <Link to="/services" className=' hover:text-[#FC5623] duration-100'>Services</Link>
+                                    <Link to="/projects" className=' hover:text-[#FC5623] duration-100'>Projects</Link>
+                                    <Link to="/about" className=' hover:text-[#FC5623] duration-100'>About</Link>
+                                    <Link to="/shop" className=' hover:text-[#FC5623] duration-100'>Shop</Link>
+                                    <Link to="/blog" className=' hover:text-[#FC5623] duration-100'>Blog</Link>
+                                    <Link to="/contact" className=' hover:text-[#FC5623] duration-100'>Contact</Link>
                                 </ul>
                             </div>
                         </div>
@@ -34,7 +35,7 @@ const HHead = () => {
                                 <HiOutlineShoppingCart size={25} color='white'/>
                                 <p className='text-white'>0</p>
                             </div>
-                            <button className='text-white bg-[#FC5623] py-2 px-4 md:py-3 md:px-6 rounded hover:bg-white hover:text-[#FC5623] font-semibold hover:font-bold'>Our Services</button>
+                            <Link to="/services" className='text-white bg-[#FC5623] py-2 px-4 md:py-3 md:px-6 rounded hover:bg-white hover:text-[#FC5623] font-semibold hover:font-bold'>Our Services</Link>
                         </div>
                     </nav>
                 </div>
@@ -45,14 +46,8 @@ const HHead = () => {
                     </div>
                     <p className='text-white py-8'>We are premier construction company in London</p>
                     <div className='pt-5 flex gap-1'>
-                        <button 
-                            className='text-[#FC5623] bg-white py-3 px-6 rounded font-semibold hover:bg-[#FC5623] hover:text-[white] hover:font-bold'>
-                            Our Services
-                        </button>
-                        <button 
-                            className='py-3  text-white px-6 rounded font-semibold bg-transparent hover:text-[#FC5623] hover:font-bold'>
-                                <a href="/src/Home.v2/HHh">Our Services</a>
-                        </button>
+                        <Link to="/services" className='text-[#FC5623] bg-white py-3 px-6 rounded font-semibold hover:bg-[#FC5623] hover:text-[white] hover:font-bold'>Our Services</Link>
+                        <Link to="/services" className='py-3  text-white px-6 rounded font-semibold bg-transparent hover:text-[#FC5623] hover:font-bold'>Our Services</Link>
                     </div>
                 </div>
             </div>

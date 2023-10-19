@@ -1,5 +1,6 @@
 import React from 'react'
 import { BsArrowRight } from 'react-icons/bs'
+import { Link } from 'react-router-dom'
 
 const HBService = () => {
     return (
@@ -12,7 +13,7 @@ const HBService = () => {
                     <div className='py-3'><h1 className='font-semibold text-xl'>Construction Service</h1></div>
                     <div><p className='leading-snug'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi vel placeat modi eveniet optio amet omnis laborum beatae tempore similique.</p></div>
                     <div className='flex gap-2 pt-3 items-center'>
-                        <a href="/" className='font-semibold text-lg'>Details</a>
+                        <Link to="/services" className='font-semibold text-lg'>Details</Link>
                         <BsArrowRight size={20} color='white'/>
                     </div>
                 </div>

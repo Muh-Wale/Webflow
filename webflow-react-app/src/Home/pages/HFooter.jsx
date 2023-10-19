@@ -1,5 +1,6 @@
 import React from 'react'
 import { BsArrowRight } from 'react-icons/bs'
+import { Link } from 'react-router-dom'
 
 const HFooter = () => {
     return (
@@ -28,25 +29,25 @@ const HFooter = () => {
                     <div className=''>
                         <h1 className='font-semibold text-lg'>Block Pages</h1>
                         <div className='flex gap-3 pt-4 text-sm font-medium'>
-                            <ul>
-                                <li className='pb-3'>Services</li>
-                                <li className='pb-3'>Blog</li>
-                                <li className='pb-3'>Contacts</li>
-                            </ul>
-                            <ul className=' pl-2 md:pl-8'>
-                                <li className='pb-3'>Projects</li>
-                                <li className='pb-3'>About</li>
-                                <li className='pb-3'>Shop</li>
-                            </ul>
+                            <div className='flex flex-col'>
+                                <Link to="/services" className=' hover:text-[#FC5623] duration-100 pb-3'>Services</Link>
+                                <Link to="/blog" className=' hover:text-[#FC5623] duration-100 pb-3'>Blog</Link>
+                                <Link to="/contact" className=' hover:text-[#FC5623] duration-100 pb-3'>Contact</Link>
+                            </div>
+                            <div className='flex flex-col pl-2 md:pl-8'>
+                                <Link to="/projects" className=' hover:text-[#FC5623] duration-100 pb-3'>Projects</Link>
+                                <Link to="/about" className=' hover:text-[#FC5623] duration-100 pb-3'>About</Link>
+                                <Link to="/shop" className=' hover:text-[#FC5623] duration-100 pb-3'>Shop</Link>
+                            </div>
                         </div>
                     </div>
                     <div className=''>
                         <h1 className='font-semibold text-lg'>Shop Categories</h1>
                         <div className='pt-4 text-sm font-medium'>
                             <ul>
-                                <li className='pb-3'>Safety Equipment</li>
-                                <li className='pb-3'>Wrenches</li>
-                                <li className='pb-3'>Power Tools</li>
+                                <li className='pb-3 hover:text-[#FC5623] duration-100 cursor-pointer'>Safety Equipment</li>
+                                <li className='pb-3 hover:text-[#FC5623] duration-100 cursor-pointer'>Wrenches</li>
+                                <li className='pb-3 hover:text-[#FC5623] duration-100 cursor-pointer'>Power Tools</li>
                             </ul>
                         </div>
                     </div>
@@ -54,9 +55,9 @@ const HFooter = () => {
                         <h1 className='font-semibold text-lg'>Template</h1>
                         <div className='pt-4 text-sm font-medium'>
                             <ul>
-                                <li className='pb-3'>Change Log</li>
-                                <li className='pb-3'>Licenses</li>
-                                <li className='pb-3'>Styleguide</li>
+                                <li className='pb-3 hover:text-[#FC5623] duration-100 cursor-pointer'>Change Log</li>
+                                <li className='pb-3 hover:text-[#FC5623] duration-100 cursor-pointer'>Licenses</li>
+                                <li className='pb-3 hover:text-[#FC5623] duration-100 cursor-pointer'>Styleguide</li>
                             </ul>
                         </div>
                     </div>
