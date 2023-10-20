@@ -76,7 +76,7 @@ const Body = () => {
                             </div>
                             <div className='py-3'><h1 className='font-semibold text-xl'>Construction Service</h1></div>
                             <div><p className='leading-snug'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi vel placeat modi eveniet optio amet omnis laborum beatae tempore similique.</p></div>
-                            <div className='flex gap-2 pt-3 items-center'>
+                            <div className='flex gap-2 pt-3 items-center hover:text-[#FC5623] font-semibold hover:font-bold duration-75 w-fit cursor-pointer'>
                                 <a href="/services" className='font-semibold text-lg'>Details</a>
                                 <BsArrowRight size={20}/>
                             </div>
@@ -87,7 +87,7 @@ const Body = () => {
                             </div>
                             <div className='py-3'><h1 className='font-semibold text-xl'>Construction Service</h1></div>
                             <div><p className='leading-snug'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi vel placeat modi eveniet optio amet omnis laborum beatae tempore similique.</p></div>
-                            <div className='flex gap-2 pt-3 items-center'>
+                            <div className='flex gap-2 pt-3 items-center hover:text-[#FC5623] font-semibold hover:font-bold duration-75 w-fit cursor-pointer'>
                                 <a href="/services" className='font-semibold text-lg'>Details</a>
                                 <BsArrowRight size={20}/>
                             </div>
@@ -98,7 +98,7 @@ const Body = () => {
                             </div>
                             <div className='py-3'><h1 className='font-semibold text-xl'>Construction Service</h1></div>
                             <div><p className='leading-snug'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi vel placeat modi eveniet optio amet omnis laborum beatae tempore similique.</p></div>
-                            <div className='flex gap-2 pt-3 items-center'>
+                            <div className='flex gap-2 pt-3 items-center hover:text-[#FC5623] font-semibold hover:font-bold duration-75 w-fit cursor-pointer'>
                                 <a href="/services" className='font-semibold text-lg'>Details</a>
                                 <BsArrowRight size={20}/>
                             </div>

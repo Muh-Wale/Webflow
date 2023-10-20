@@ -3,6 +3,7 @@ import ContactHead from './pages/ContactHead'
 import Body from './pages/Body'
 import Footer from '../Footer/Footer'
 
+
 const Contact = () => {
     return (
         <div>
