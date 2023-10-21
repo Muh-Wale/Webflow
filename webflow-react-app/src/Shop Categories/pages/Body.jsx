@@ -10,7 +10,7 @@ const Body = () => {
                         <h1 className='text-3xl font-semibold'>Pliers</h1>
                     </div>
                     <div>
-                        <ul className=' flex md:justify-between gap-7 md:gap-5 font-medium mt-5 md:mt-0'>
+                        <ul className=' flex md:justify-between md:items-center gap-5 flex-wrap md:gap-5 font-medium mt-5 md:mt-0'>
                             <li><a href="" className=' hover:text-[#FC5623]'>All Products</a></li>
                             <li><a href="" className=' hover:text-[#FC5623]'>Pliers</a></li>
                             <li><a href="" className=' hover:text-[#FC5623]'>Drilling Tools</a></li>
@@ -18,7 +18,7 @@ const Body = () => {
                         </ul>
                     </div>
                 </div>
-                <div className='py-16 grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-6 lg:gap-12'>
+                <div className='grid grid-cols-1 mx-auto md:mx-0 md:grid-cols-2 lg:grid-cols-3 gap-7 md:gap-5 lg:gap-10'>
                     <div>
                         <div className="relative">
                             <img src="/src/Pic/3.png" alt="Picture" className="w-full" />

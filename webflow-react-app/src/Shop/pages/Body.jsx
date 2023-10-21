@@ -10,7 +10,7 @@ const Body = () => {
                         <h1 className='text-3xl font-semibold'>All Products</h1>
                     </div>
                     <div>
-                        <ul className=' flex md:justify-between md:items-center gap-7 md:gap-5 font-medium mt-5 md:mt-0'>
+                        <ul className=' flex md:justify-between md:items-center gap-5 flex-wrap md:gap-5 font-medium mt-5 md:mt-0'>
                             <li><a href="" className=' hover:text-[#FC5623]'>All Products</a></li>
                             <li><a href="" className=' hover:text-[#FC5623]'>Pliers</a></li>
                             <li><a href="" className=' hover:text-[#FC5623]'>Drilling Tools</a></li>

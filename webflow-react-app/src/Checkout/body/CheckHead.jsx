@@ -2,13 +2,14 @@ import React, { useState }  from 'react'
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
 import { HiOutlineShoppingCart } from 'react-icons/hi';
 import '/src/App.css'
+import { Link } from 'react-router-dom';
 
 const CheckHead = () => {
     const [ nav, setNav ] = useState(false)
 
     return (
         <div className='max-w-[1640px] mx-auto MainBackgroundImage'>
-            <div className='max-h-[600px] lg:h-[400px] px-5 md:px-14 lg:px-24'>
+            <div className='max-h-[600px] h-[350px] md:h-[400px] px-5 md:px-14 lg:px-24'>
                 <div className='max-w-[1300px] mx-auto pt-5'>
                     <nav className='flex justify-between'>
                         <div className='flex gap-5 items-center'>
@@ -19,13 +20,13 @@ const CheckHead = () => {
                                 <img src="/src/Pic/Head.png" alt="/" />
                             </a>
                             <div className='ml-14 hidden lg:flex'>
-                                <ul className='text-white flex gap-5'>
-                                    <li><a href="/">Services</a></li>
-                                    <li><a href="/">Projects</a></li>
-                                    <li><a href="/">About</a></li>
-                                    <li><a href="/">Shop</a></li>
-                                    <li><a href="/">Blog</a></li>
-                                    <li><a href="/">Contact</a></li>
+                                <ul className='text-white flex gap-5 font-medium'>
+                                    <Link to="/services" className=' hover:text-[#FC5623] duration-150'>Services</Link>
+                                    <Link to="/projects" className=' hover:text-[#FC5623] duration-150'>Projects</Link>
+                                    <Link to="/about" className=' hover:text-[#FC5623] duration-150'>About</Link>
+                                    <Link to="/shop" className=' hover:text-[#FC5623] duration-150'>Shop</Link>
+                                    <Link to="/blog" className=' hover:text-[#FC5623] duration-150'>Blog</Link>
+                                    <Link to="/contact" className=' hover:text-[#FC5623] duration-150'>Contact</Link>
                                 </ul>
                             </div>
                         </div>
@@ -34,7 +35,7 @@ const CheckHead = () => {
                                 <HiOutlineShoppingCart size={25} color='white'/>
                                 <p className='text-white'>0</p>
                             </div>
-                            <button className='text-white bg-[#FC5623] py-2 px-4 md:py-3 md:px-6 rounded hover:bg-white hover:text-[#FC5623] font-semibold hover:font-bold'>Our Services</button>
+                            <Link to="/services" className='text-white bg-[#FC5623] py-2 px-4 md:py-3 md:px-6 rounded hover:bg-white hover:text-[#FC5623] font-semibold hover:font-bold'>Our Services</Link>
                         </div>
                     </nav>
                 </div>
