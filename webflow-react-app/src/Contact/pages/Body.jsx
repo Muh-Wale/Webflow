@@ -1,10 +1,9 @@
 import React from 'react'
-import { BsArrowRight } from 'react-icons/bs'
 
 const Body = () => {
     return (
         <div className='max-w-[1640px] mx-auto px-5 md:px-14 lg:px-24 bg-white'>
-            <div className='py-20 max-w-[1300px] mx-auto block lg:grid grid-cols-5 gap-8'>
+            <div className='py-6 md:py-20 max-w-[1300px] mx-auto block lg:grid grid-cols-5 gap-8'>
                 <div className='col-span-2'>
                     <div className="relative">
                         <img src="/src/Pic/15.png" alt="Picture" className='rounded'/>
@@ -33,28 +32,28 @@ const Body = () => {
                     </div>
                 </div>
             </div>
-            <div className='py-8 md:py-16 max-w-[1300px] mx-auto'>
-                <div className='grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-6 lg:gap-14'>
-                    <div className='pt-6 md:pt-0'>
+            <div className='py-5 mb-10 md:mb-0 md:py-16 max-w-[1300px] mx-auto'>
+                <div className='grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-6 lg:gap-14'>
+                    <div className=' flex flex-col justify-center md:block pt-6 md:pt-0 max-w-[450px] md:max-w-fit'>
                         <div className=''>
                             <img src="/src/Pic/18.png" alt=""/>
                         </div>
                         <div className='py-3'><h1 className='font-semibold text-xl'>Call Us</h1></div>
-                        <div><p className='leading-snug text-[#1C1A17]'>We’re available 24/7 for your work inquiries on the following nr: <br /> (420) 428-8000</p></div>
+                        <div><p className='leading-snug text-[#1C1A17] md:text-left'>We’re available 24/7 for your work inquiries on the following nr: <br /> (420) 428-8000</p></div>
                     </div>
-                    <div className='pt-6 md:pt-0'>
+                    <div className=' flex flex-col justify-center md:block pt-6 md:pt-0 max-w-[450px] md:max-w-fit'>
                         <div className=''>
                             <img src="/src/Pic/11.png" alt=""/>
                         </div>
                         <div className='py-3'><h1 className='font-semibold text-xl'>Visit Us</h1></div>
-                        <div><p className='leading-snug text-[#1C1A17]'>Visit us in our offices at: 1 First American Way, Santa Ana, CA, 92707</p></div>
+                        <div><p className='leading-snug text-[#1C1A17] md:text-left'>Visit us in our offices at: 1 First American Way, Santa Ana, CA, 92707</p></div>
                     </div>
-                    <div className='pt-6 md:pt-0'>
+                    <div className=' flex flex-col justify-center md:block pt-6 md:pt-0 max-w-[450px] md:max-w-fit'>
                         <div className=''>
                             <img src="/src/Pic/12.png" alt=""/>
                         </div>
                         <div className='py-3'><h1 className='font-semibold text-xl'>Contact Us</h1></div>
-                        <div><p className='leading-snug text-[#1C1A17]'>Alternatively, you can send us email to info@startui.wf and we’ll answer you shortly.</p></div>
+                        <div><p className='leading-snug text-[#1C1A17] md:text-left'>Alternatively, you can send us email to info@startui.wf and we’ll answer you shortly.</p></div>
                     </div>
                 </div>
             </div>

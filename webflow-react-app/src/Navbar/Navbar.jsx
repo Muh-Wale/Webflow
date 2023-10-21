@@ -2,6 +2,7 @@ import React, { useState }  from 'react'
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
 import { HiOutlineShoppingCart } from 'react-icons/hi';
 import '/src/App.css'
+import { Link } from 'react-router-dom';
 
 const SrSingleHead = () => {
     const [ nav, setNav ] = useState(false)
@@ -15,26 +16,26 @@ const SrSingleHead = () => {
                             <div onClick={() => setNav(!nav)}className='cursor-pointer block md:hidden'>
                                 <AiOutlineMenu size={30}/>
                             </div>
-                            <a href="/">
+                            <a href="/" className='hidden md:block'>
                                 <img src="/src/Pic/35.png" alt="/" />
                             </a>
                             <div className='ml-14 hidden lg:flex'>
-                                <ul className='flex gap-5'>
-                                    <li><a href="/">Services</a></li>
-                                    <li><a href="/">Projects</a></li>
-                                    <li><a href="/">About</a></li>
-                                    <li><a href="/">Shop</a></li>
-                                    <li><a href="/">Blog</a></li>
-                                    <li><a href="/">Contact</a></li>
+                                <ul className='flex gap-5 font-medium'>
+                                    <Link to="/services" className=' hover:text-[#FC5623] duration-150'>Services</Link>
+                                    <Link to="/projects" className=' hover:text-[#FC5623] duration-150'>Projects</Link>
+                                    <Link to="/about" className=' hover:text-[#FC5623] duration-150'>About</Link>
+                                    <Link to="/shop" className=' hover:text-[#FC5623] duration-150'>Shop</Link>
+                                    <Link to="/blog" className=' hover:text-[#FC5623] duration-150'>Blog</Link>
+                                    <Link to="/contact" className=' hover:text-[#FC5623] duration-150'>Contact</Link>
                                 </ul>
                             </div>
                         </div>
                         <div className='flex'>
-                            <div className='flex items-center mr-5'>
-                                <HiOutlineShoppingCart size={25} />
+                            <Link to="/checkout" className='flex items-center mr-5 cursor-pointer'>
+                                <HiOutlineShoppingCart size={25}/>
                                 <p className=''>0</p>
-                            </div>
-                            <button className='text-white bg-[#FC5623] py-2 px-4 md:py-3 md:px-6 rounded hover:text-[#1C1A17] font-semibold'>Our Services</button>
+                            </Link>
+                            <Link to="/services" className='text-white bg-[#FC5623] py-2 px-4 md:py-3 md:px-6 rounded hover:text-[#1C1A17] font-semibold'>Our Services</Link>
                         </div>
                     </nav>
                 </div>

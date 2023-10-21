@@ -8,16 +8,16 @@ const Blog = () => {
                 <div className='pt-14'>
                     <p className='text-3xl font-semibold'>More blog posts</p>
                 </div>
-                <div className='grid grid-cols-2 md:grid-cols-3 gap-7 md:gap-5 lg:gap-10 py-20'>
+                <div className='py-16 grid grid-cols-1 mx-auto md:mx-0 md:grid-cols-2 lg:grid-cols-3 gap-7 md:gap-5 lg:gap-10'>
                     <div className=' max-w-[450px] border border-[#EEF1F3] relative'>
                         <div>
                             <img src="/src/Pic/22.png" alt="" className=' w-full'/>
                         </div>
                         
-                        <div className=' p-2 md:p-5'>
+                        <div className=' p-3 md:p-5'>
                             <h1 className=' font-semibold text-lg'>Premier construction</h1>
-                            <p className=' text-sm text-[#211C15] py-2 md:py-4'>Duis pretium, nisi ut fermentum fringilla, nunc est fermentum erat</p>
-                            <div className='flex w-fit gap-2 items-center justify-center text-white bg-[#FC5623] py-2 px-2 md:py-2 md:px-4 rounded hover:text-gray-300 font-semibold hover:font-bold'>
+                            <p className=' text-sm text-[#211C15] py-4'>Duis pretium, nisi ut fermentum fringilla, nunc est fermentum erat</p>
+                            <div className='flex w-fit gap-2 items-center justify-center text-white bg-[#FC5623] py-2 px-4 rounded hover:text-gray-300 font-semibold hover:font-bold'>
                                 <a href="/" className=' font-normal md:font-semibold'>Details</a>
                                 <BsArrowRight size={20}/>
                             </div> 
@@ -28,10 +28,10 @@ const Blog = () => {
                             <img src="/src/Pic/22.png" alt="" className=' w-full'/>
                         </div>
                         
-                        <div className=' p-2 md:p-5'>
+                        <div className=' p-3 md:p-5'>
                             <h1 className=' font-semibold text-lg'>Premier construction</h1>
-                            <p className=' text-sm text-[#211C15] py-2 md:py-4'>Duis pretium, nisi ut fermentum fringilla, nunc est fermentum erat</p>
-                            <div className='flex w-fit gap-2 items-center justify-center text-white bg-[#FC5623] py-2 px-2 md:py-2 md:px-4 rounded hover:text-gray-300 font-semibold hover:font-bold'>
+                            <p className=' text-sm text-[#211C15] py-4'>Duis pretium, nisi ut fermentum fringilla, nunc est fermentum erat</p>
+                            <div className='flex w-fit gap-2 items-center justify-center text-white bg-[#FC5623] py-2 px-4 rounded hover:text-gray-300 font-semibold hover:font-bold'>
                                 <a href="/" className=' font-normal md:font-semibold'>Details</a>
                                 <BsArrowRight size={20}/>
                             </div> 
@@ -47,10 +47,10 @@ const Blog = () => {
                             </div>
                         </div>
                         
-                        <div className=' p-2 md:p-5'>
+                        <div className=' p-3 md:p-5'>
                             <h1 className=' font-semibold text-lg'>Premier construction</h1>
-                            <p className=' text-sm text-[#211C15] py-2 md:py-4'>Duis pretium, nisi ut fermentum fringilla, nunc est fermentum erat</p>
-                            <div className='flex w-fit gap-2 items-center justify-center text-white bg-[#FC5623] py-2 px-2 md:py-2 md:px-4 rounded hover:text-gray-300 font-semibold hover:font-bold'>
+                            <p className=' text-sm text-[#211C15] py-4'>Duis pretium, nisi ut fermentum fringilla, nunc est fermentum erat</p>
+                            <div className='flex w-fit gap-2 items-center justify-center text-white bg-[#FC5623] py-2 px-4 rounded hover:text-gray-300 font-semibold hover:font-bold'>
                                 <a href="/" className=' font-normal md:font-semibold'>Details</a>
                                 <BsArrowRight size={20}/>
                             </div> 

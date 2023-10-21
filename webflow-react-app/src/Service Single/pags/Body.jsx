@@ -31,15 +31,15 @@ const Body = () => {
                             </div>
                         </div>
                         <div className='pt-0 md:pt-5'>
-                            <div className='grid grid-cols-2 gap-3 md:gap-6 lg:gap-14'>
-                                <div className='pt-6 md:pt-0'>
+                            <div className='grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-6 lg:gap-14'>
+                                <div className='pt-6 md:pt-0 max-w-[430px] md:max-w-fit'>
                                     <div className=''>
                                         <img src="/src/Pic/18.png" alt=""/>
                                     </div>
                                     <div className='py-3'><h1 className='font-semibold text-xl'>Construction Service</h1></div>
                                     <div><p className='leading-snug text-[#1C1A17]'>Proin iaculis quam a elementum pharetra. Nunc tempus ipsum lectus, ac cursus libero sodales aenean sed.</p></div>
                                 </div>
-                                <div className='pt-6 md:pt-0'>
+                                <div className='pt-6 md:pt-0 max-w-[430px] md:max-w-fit'>
                                     <div className=''>
                                         <img src="/src/Pic/11.png" alt=""/>
                                     </div>
@@ -82,16 +82,16 @@ const Body = () => {
                     <div className='pt-14'>
                         <p className='text-3xl font-semibold'>More Services For You</p>
                     </div>
-                    <div className='grid grid-cols-2 md:grid-cols-3 gap-7 md:gap-5 lg:gap-10 py-20'>
+                    <div className=' py-16 grid grid-cols-1 mx-auto md:mx-0 md:grid-cols-2 lg:grid-cols-3 gap-7 md:gap-5 lg:gap-10'>
                         <div className=' max-w-[450px] border border-[#EEF1F3]'>
                             <div>
                                 <img src="/src/Pic/22.png" alt="" className=' w-full'/>
                             </div>
                             
-                            <div className=' p-2 md:p-5 flex flex-col justify-center'>
+                            <div className=' p-3 md:p-5 flex flex-col justify-center'>
                                 <h1 className=' font-semibold text-lg'>Construction</h1>
-                                <p className=' text-sm text-[#211C15] py-2 md:py-4'>Duis pretium, nisi ut fermentum fringilla, nunc est fermentum erat</p>
-                                <div className='flex w-fit gap-2 items-center py-2 md:py-2 font-semibold hover:font-bold'>
+                                <p className=' text-sm text-[#211C15] py-3 md:py-4'>Duis pretium, nisi ut fermentum fringilla, nunc est fermentum erat</p>
+                                <div className='flex w-fit gap-2 items-center py-2 font-semibold hover:font-bold'>
                                     <a href="/" className=' font-normal md:font-semibold'>Details</a>
                                     <BsArrowRight size={20}/>
                                 </div> 
@@ -102,10 +102,10 @@ const Body = () => {
                                 <img src="/src/Pic/22.png" alt="" className=' w-full'/>
                             </div>
                             
-                            <div className=' p-2 md:p-5 flex flex-col justify-center'>
+                            <div className=' p-3 md:p-5 flex flex-col justify-center'>
                                 <h1 className=' font-semibold text-lg'>Interiior Design</h1>
-                                <p className=' text-sm text-[#211C15] py-2 md:py-4'>Duis pretium, nisi ut fermentum fringilla, nunc est fermentum erat</p>
-                                <div className='flex w-fit gap-2 items-center py-2 md:py-2 font-semibold hover:font-bold'>
+                                <p className=' text-sm text-[#211C15] py-3 md:py-4'>Duis pretium, nisi ut fermentum fringilla, nunc est fermentum erat</p>
+                                <div className='flex w-fit gap-2 items-center py-2 font-semibold hover:font-bold'>
                                     <a href="/" className=' font-normal md:font-semibold'>Details</a>
                                     <BsArrowRight size={20}/>
                                 </div> 
@@ -117,10 +117,10 @@ const Body = () => {
                                     <img src="/src/Pic/22.png" alt="" className=' w-full'/>
                                 </div>
                             </div>
-                            <div className=' p-2 md:p-5 flex flex-col justify-center'>
+                            <div className=' p-3 md:p-5 flex flex-col justify-center'>
                                 <h1 className=' font-semibold text-lg'>Exterior Design</h1>
-                                <p className=' text-sm text-[#211C15] py-2 md:py-4'>Duis pretium, nisi ut fermentum fringilla, nunc est fermentum erat</p>
-                                <div className='flex w-fit gap-2 items-center py-2 md:py-2 font-semibold hover:font-bold'>
+                                <p className=' text-sm text-[#211C15] py-3 md:py-4'>Duis pretium, nisi ut fermentum fringilla, nunc est fermentum erat</p>
+                                <div className='flex w-fit gap-2 items-center py-2 font-semibold hover:font-bold'>
                                     <a href="/" className=' font-normal md:font-semibold'>Details</a>
                                     <BsArrowRight size={20}/>
                                 </div> 

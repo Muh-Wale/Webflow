@@ -31,10 +31,10 @@ const ContactHead = () => {
                             </div>
                         </div>
                         <div className='flex'>
-                            <div className='flex items-center mr-5'>
+                            <Link to="/checkout" className='flex items-center mr-5 cursor-pointer'>
                                 <HiOutlineShoppingCart size={25} color='white'/>
                                 <p className='text-white'>0</p>
-                            </div>
+                            </Link>
                             <Link to="/services" className='text-white bg-[#FC5623] py-2 px-4 md:py-3 md:px-6 rounded hover:bg-white hover:text-[#FC5623] font-semibold hover:font-bold'>Our Services</Link>
                         </div>
                     </nav>

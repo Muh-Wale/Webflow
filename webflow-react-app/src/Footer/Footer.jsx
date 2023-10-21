@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className='max-w-[1640px] mx-auto px-8 md:px-14 lg:px-24 bg-[#211C15]'>
             <div className='py-8 md:py-14 lg:py-20 max-w-[1300px] mx-auto'>
-                <div className='grid grid-flow-col place-content-between'>
+                <div className='grid gap-2 mx-auto grid-flow-col place-content-between'>
                     <div>
                         <img src="/src/Pic/Head.png" alt="" />
                     </div>
@@ -14,8 +14,8 @@ const Footer = () => {
                         <img src="/src/Pic/17.png" alt="" className='pl-0 md:pl-5'/>
                     </div>
                 </div>
-                <div className='text-white pt-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
-                    <div className=''>
+                <div className='text-white pt-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-9'>
+                    <div className='col-span-1 lg:col-span-2'>
                         <h1 className='font-semibold text-lg'>Block Pages</h1>
                         <div className='flex gap-3 pt-4 text-sm font-medium'>
                             <div className='flex flex-col'>
@@ -30,7 +30,7 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    <div className=''>
+                    <div className='col-span-1 lg:col-span-2'>
                         <h1 className='font-semibold text-lg'>Shop Categories</h1>
                         <div className='pt-4 text-sm font-medium'>
                             <ul>
@@ -40,7 +40,7 @@ const Footer = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className='pt-10 md:pt-0'>
+                    <div className='pt-10 md:pt-0 col-span-1 lg:col-span-2'>
                         <h1 className='font-semibold text-lg'>Template</h1>
                         <div className='pt-4 text-sm font-medium'>
                             <ul>
@@ -50,7 +50,7 @@ const Footer = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className='pt-10 lg:pt-0'>
+                    <div className='pt-10 lg:pt-0 col-span-1 lg:col-span-3'>
                         <h1 className='font-semibold text-lg'>Suscribe To A Newsletter</h1>
                         <div className='py-4 text-sm font-medium'>
                             <p>Duis pretium, nisi ut fermentum fringilla, nunc est fermentum erat</p>
