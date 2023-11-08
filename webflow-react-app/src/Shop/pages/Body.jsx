@@ -22,9 +22,9 @@ const Body = () => {
                     <div>
                         <div className="relative">
                             <img src="/src/Pic/4.png" alt="Picture" className="w-full" />
-                            <div className="px-3 py-1 rounded bg-white absolute top-2 right-2 z-10">
+                            {/* {<div className="px-3 py-1 rounded bg-white absolute top-2 right-2 z-10">
                                 <p className="">New</p>
-                            </div>
+                            </div>} */}
                         </div>
                         <div className='font-semibold py-2'>
                             <p>Power hammer tool</p>

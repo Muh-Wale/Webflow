@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 const Body = () => {
     return (
@@ -143,7 +144,9 @@ const Body = () => {
                             <p>$124.00 USD</p>
                         </div>
                         <div className='px-3 md:px-5 pb-5'>
-                            <button className='text-white bg-[#FC5623] py-2 w-full md:py-4 md:px-6 rounded font-semibold hover:text-[#1C1A17]'>Place The Order</button>
+                            <div className='text-white bg-[#FC5623] py-2 w-full md:py-4 md:px-6 rounded font-semibold hover:text-[#1C1A17] flex justify-center'>
+                                <Link to="/orderconfirmation">Place The Order</Link>
+                            </div>
                         </div>
                     </div>
                 </div>

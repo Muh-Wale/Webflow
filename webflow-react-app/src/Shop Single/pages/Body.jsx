@@ -1,5 +1,6 @@
 import React from 'react'
 import { BsArrowRight } from 'react-icons/bs'
+import { Link } from 'react-router-dom';
 
 const Body = () => {
     return (
@@ -39,8 +40,8 @@ const Body = () => {
                                 <button type="button" className='text-white bg-[#FC5623] hover:text-[#1C1A17] py-3 px-9 rounded font-medium'>Add To Cart</button>
                             </div>
                         </div>
-                        <div className='mt-8'>
-                            <button className='text-white bg-[#FC5623] py-4 hover:text-[#1C1A17] rounded w-full font-medium'>Buy Now</button>
+                        <div className='mt-8 w-[100%] bg-[#FC5623] hover:text-[#1C1A17] rounded text-white py-4 flex justify-center'>
+                            <Link to="/checkout" className='w-fit font-medium'>Buy Now</Link>
                         </div>
                     </div>
                 </div>
@@ -52,9 +53,6 @@ const Body = () => {
                         <div>
                             <div className="">
                                 <img src="/src/Pic/4.png" alt="Picture" className="w-full" />
-                                <div className="px-3 py-1 rounded bg-white absolute top-2 right-3 z-10">
-                                    <p className="">New</p>
-                                </div>
                             </div>
                             <div className='font-semibold py-2'>
                                 <p>Power hammer tool</p>

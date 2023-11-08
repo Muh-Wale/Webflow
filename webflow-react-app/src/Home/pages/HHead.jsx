@@ -35,7 +35,7 @@ const HHead = () => {
                                 <HiOutlineShoppingCart size={25} color='white'/>
                                 <p className='text-white'>0</p>
                             </div>
-                            <Link to="/services" className='text-white bg-[#FC5623] py-2 px-4 md:py-3 md:px-6 rounded hover:bg-white hover:text-[#FC5623] font-semibold hover:font-bold'>Our Services</Link>
+                            <Link to="/services" className='hidden md:block text-white bg-[#FC5623] py-2 px-4 md:py-3 md:px-6 rounded hover:bg-white hover:text-[#FC5623] font-semibold hover:font-bold'>Our Services</Link>
                         </div>
                     </nav>
                 </div>
@@ -46,8 +46,8 @@ const HHead = () => {
                     </div>
                     <p className='text-white py-8'>We are premier construction company in London</p>
                     <div className='pt-5 flex gap-1'>
-                        <Link to="/services" className='text-[#FC5623] bg-white py-3 px-6 rounded font-semibold hover:bg-[#FC5623] hover:text-[white] hover:font-bold'>Our Services</Link>
-                        <Link to="/services" className='py-3  text-white px-6 rounded font-semibold bg-transparent hover:text-[#FC5623] hover:font-bold'>Our Services</Link>
+                        <Link to="/services" className='text-[#FC5623] bg-white py-3 px-3 md:px-6 rounded font-semibold hover:bg-[#FC5623] hover:text-[white] hover:font-bold'>Our Services</Link>
+                        <Link to="/services" className='py-3 text-white px-3 md:px-6 rounded font-semibold bg-transparent hover:text-[#FC5623] hover:font-bold'>Our Services</Link>
                     </div>
                 </div>
             </div>
@@ -55,7 +55,7 @@ const HHead = () => {
                 {/* Overlay */}
             {nav ? <div className="bg-black/80 hidden fixed w-full h-screen z-10 top-0 left-0"></div> : ''}
                 {/* Side Drawer Menu */}
-            <div className={nav ? 'fixed top-0 left-0 w-[300px] h-screen bg-white z-10 duration-300' : 'fixed top-0 left-[-100%] w-[300px] h-screen bg-white z-10 duration-300'}>
+            <div className={nav ? 'fixed top-0 left-0 w-[100%] h-fit bg-white z-10 duration-300' : 'fixed top-0 left-[-100%] w-[300px] h-fit bg-white z-10 duration-300'}>
                 <AiOutlineClose
                     onClick={() => setNav(!nav)}
                     size={30}
@@ -64,26 +64,14 @@ const HHead = () => {
                 <a>
                     <img src="/src/Pic/Head.png" alt="/" className='p-4' style={{ filter: 'brightness(0%)' }}/>
                 </a>
-                <nav>
+                <nav className='flex justify-center shadow-2xl'>
                     <ul className='flex flex-col p-4 '>
-                        <li className="text-xl py-4 flex">
-                            Services
-                        </li>
-                        <li className="text-xl py-4 flex">
-                            Projects
-                        </li>
-                        <li className="text-xl py-4 flex">
-                            About
-                        </li>
-                        <li className="text-xl py-4 flex">
-                            Shop
-                        </li>
-                        <li className="text-xl py-4 flex">
-                            Blog
-                        </li>
-                        <li className="text-xl py-4 flex">
-                            Contact
-                        </li>
+                        <Link to="/services" className='text-xl py-4 flex font-semibold hover:text-[#FC5623] duration-150'>Services</Link>
+                        <Link to="/projects" className='text-xl py-4 flex font-semibold hover:text-[#FC5623] duration-15'>Projects</Link>
+                        <Link to="/about" className='text-xl py-4 flex font-semibold hover:text-[#FC5623] duration-150'>About</Link>
+                        <Link to="/shop" className='text-xl py-4 flex font-semibold hover:text-[#FC5623] duration-150'>Shop</Link>
+                        <Link to="/blog" className='text-xl py-4 flex font-semibold hover:text-[#FC5623] duration-150'>Blog</Link>
+                        <Link to="/contact" className='text-xl py-4 flex font-semibold hover:text-[#FC5623] duration-150'>Contact</Link>
                     </ul>
                 </nav>
             </div>

@@ -49,7 +49,7 @@ const PSingleHead = () => {
                 {/* Overlay */}
             {nav ? <div className="bg-black/80 hidden fixed w-full h-screen z-10 top-0 left-0"></div> : ''}
                 {/* Side Drawer Menu */}
-            <div className={nav ? 'fixed top-0 left-0 w-[300px] h-screen bg-white z-10 duration-300' : 'fixed top-0 left-[-100%] w-[300px] h-screen bg-white z-10 duration-300'}>
+            <div className={nav ? 'fixed top-0 left-0 w-[100%] h-fit bg-white z-10 duration-300' : 'fixed top-0 left-[-100%] w-[300px] h-fit bg-white z-10 duration-300'}>
                 <AiOutlineClose
                     onClick={() => setNav(!nav)}
                     size={30}
@@ -58,26 +58,14 @@ const PSingleHead = () => {
                 <a>
                     <img src="/src/Pic/Head.png" alt="/" className='p-4' style={{ filter: 'brightness(0%)' }}/>
                 </a>
-                <nav>
+                <nav className='flex justify-center shadow-2xl'>
                     <ul className='flex flex-col p-4 '>
-                        <li className="text-xl py-4 flex">
-                            Services
-                        </li>
-                        <li className="text-xl py-4 flex">
-                            Projects
-                        </li>
-                        <li className="text-xl py-4 flex">
-                            About
-                        </li>
-                        <li className="text-xl py-4 flex">
-                            Shop
-                        </li>
-                        <li className="text-xl py-4 flex">
-                            Blog
-                        </li>
-                        <li className="text-xl py-4 flex">
-                            Contact
-                        </li>
+                        <Link to="/services" className='text-xl py-4 flex font-semibold hover:text-[#FC5623] duration-150'>Services</Link>
+                        <Link to="/projects" className='text-xl py-4 flex font-semibold hover:text-[#FC5623] duration-15'>Projects</Link>
+                        <Link to="/about" className='text-xl py-4 flex font-semibold hover:text-[#FC5623] duration-150'>About</Link>
+                        <Link to="/shop" className='text-xl py-4 flex font-semibold hover:text-[#FC5623] duration-150'>Shop</Link>
+                        <Link to="/blog" className='text-xl py-4 flex font-semibold hover:text-[#FC5623] duration-150'>Blog</Link>
+                        <Link to="/contact" className='text-xl py-4 flex font-semibold hover:text-[#FC5623] duration-150'>Contact</Link>
                     </ul>
                 </nav>
             </div>
