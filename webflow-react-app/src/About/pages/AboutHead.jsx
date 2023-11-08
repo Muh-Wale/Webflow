@@ -13,7 +13,7 @@ const AboutHead = () => {
                 <div className='max-w-[1300px] mx-auto pt-5'>
                     <nav className='flex justify-between'>
                         <div className='flex gap-5 items-center'>
-                            <div onClick={() => setNav(!nav)}className='cursor-pointer block md:hidden'>
+                            <div onClick={() => setNav(!nav)}className='cussu cursor-pointer block md:hidden'>
                                 <AiOutlineMenu size={30} color='white'/>
                             </div>
                             <a href="/">
@@ -53,7 +53,7 @@ const AboutHead = () => {
                 <AiOutlineClose
                     onClick={() => setNav(!nav)}
                     size={30}
-                    className='absolute right-4 top-4 cursor-pointer'
+                    className='cuss absolute right-4 top-4 cursor-pointer'
                 />
                 <a>
                     <img src="/src/Pic/Head.png" alt="/" className='p-4' style={{ filter: 'brightness(0%)' }}/>

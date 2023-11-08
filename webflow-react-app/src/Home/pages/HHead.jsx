@@ -59,7 +59,7 @@ const HHead = () => {
                 <AiOutlineClose
                     onClick={() => setNav(!nav)}
                     size={30}
-                    className='absolute right-4 top-4 cursor-pointer'
+                    className='cuss absolute right-4 top-4 cursor-pointer'
                 />
                 <a>
                     <img src="/src/Pic/Head.png" alt="/" className='p-4' style={{ filter: 'brightness(0%)' }}/>
