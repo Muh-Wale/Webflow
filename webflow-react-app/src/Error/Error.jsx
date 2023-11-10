@@ -1,4 +1,4 @@
-import React, { useState }  from 'react'
+import React, { useState, useEffect }  from 'react'
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
 import { HiOutlineShoppingCart } from 'react-icons/hi';
 import '/src/App.css'
@@ -6,13 +6,30 @@ import {Link} from 'react-router-dom'
 const Error = () => {
     const [ nav, setNav ] = useState(false)
 
+    useEffect(() => {
+        const cussu = document.querySelector('.cussu');
+        const cuss = document.querySelector('.cuss')
+        cussu.addEventListener('click', () => {
+            document.body.style.overflow = 'hidden';
+        });
+        cuss.addEventListener('click', () => {
+            document.body.style.overflow = 'auto';
+        });
+        return () => {
+        cussu.removeEventListener('click', () => {
+            document.body.style.overflow = 'hidden';
+        });
+        document.body.style.overflow = 'auto';
+        };
+    }, []);
+
     return (
         <div className='max-w-[1640px] mx-auto BackgroundImage'>
             <div className=' h-screen px-5 md:px-14 lg:px-24'>
                 <div className='max-w-[1300px] mx-auto pt-5'>
                     <nav className='flex justify-between'>
                         <div className='flex gap-5 items-center'>
-                            <div onClick={() => setNav(!nav)}className='cursor-pointer block md:hidden'>
+                            <div onClick={() => setNav(!nav)}className='cussu cursor-pointer block md:hidden'>
                                 <AiOutlineMenu size={30} color='white'/>
                             </div>
                             <a href="/">
@@ -59,7 +76,7 @@ const Error = () => {
                 <AiOutlineClose
                     onClick={() => setNav(!nav)}
                     size={30}
-                    className='absolute right-4 top-4 cursor-pointer'
+                    className='cuss absolute right-4 top-4 cursor-pointer'
                 />
                 <a>
                     <img src="/src/Pic/Head.png" alt="/" className='p-4' style={{ filter: 'brightness(0%)' }}/>
