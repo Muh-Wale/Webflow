@@ -17,7 +17,7 @@ const HHead = () => {
                                 <AiOutlineMenu size={30} color='white'/>
                             </div>
                             <a href="/">
-                                <img src="/src/Pic/Head.png" />
+                                <img src="src/Pic/Head.png" />
                             </a>
                             <div className='ml-14 hidden lg:flex'>
                                 <ul className='text-white flex gap-5 font-medium'>
