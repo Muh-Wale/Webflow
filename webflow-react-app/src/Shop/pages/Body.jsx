@@ -1,5 +1,13 @@
 import { BsArrowRight } from 'react-icons/bs'
 import { Link } from 'react-router-dom'
+import img4 from '/src/Pic/4.png'
+import img3 from '/src/Pic/3.png'
+import img5 from '/src/Pic/5.png'
+import img41 from '/src/Pic/41.png'
+import img38 from '/src/Pic/38.png'
+import img42 from '/src/Pic/42.png'
+import img39 from '/src/Pic/39.png'
+import img40 from '/src/Pic/40.png'
 
 const Body = () => {
     return (
@@ -21,7 +29,7 @@ const Body = () => {
                 <div className='grid grid-cols-1 mx-auto md:mx-0 md:grid-cols-2 lg:grid-cols-3 gap-7 md:gap-5 lg:gap-10'>
                     <div>
                         <div className="relative">
-                            <img src="/src/Pic/4.png" alt="Picture" className="w-full" />
+                            <img src={img4} alt="Picture" className="w-full" />
                             {/* {<div className="px-3 py-1 rounded bg-white absolute top-2 right-2 z-10">
                                 <p className="">New</p>
                             </div>} */}
@@ -33,7 +41,7 @@ const Body = () => {
                     </div>
                     <div>
                         <div className="relative">
-                            <img src="/src/Pic/3.png" alt="Picture" className="w-full" />
+                            <img src={img3} alt="Picture" className="w-full" />
                             <div className="px-3 py-1 rounded bg-white absolute top-2 right-3 z-10">
                                 <p className="">New</p>
                             </div>
@@ -51,7 +59,7 @@ const Body = () => {
                     </div>
                     <div>
                         <div className="relative">
-                            <img src="/src/Pic/5.png" alt="Picture" className="w-full" />
+                            <img src={img5} alt="Picture" className="w-full" />
                             <div className="px-3 py-1 rounded bg-white absolute top-2 right-2 z-10">
                                 <p className="">New</p>
                             </div>
@@ -63,7 +71,7 @@ const Body = () => {
                     </div>
                     <div>
                         <div className="relative">
-                            <img src="/src/Pic/41.png" alt="Picture" className="w-full" />
+                            <img src={img41} alt="Picture" className="w-full" />
                             <div className="px-3 py-1 rounded bg-white absolute top-2 right-2 z-10">
                                 <p className="">New</p>
                             </div>
@@ -75,7 +83,7 @@ const Body = () => {
                     </div>
                     <div>
                         <div className="">
-                            <img src="/src/Pic/38.png" alt="Picture" className="w-full" />
+                            <img src={img38} alt="Picture" className="w-full" />
                         </div>
                         <div className='font-semibold py-2'>
                             <p>Power hammer tool</p>
@@ -84,7 +92,7 @@ const Body = () => {
                     </div>
                     <div>
                         <div className="">
-                            <img src="/src/Pic/42.png" alt="Picture" className="w-full" />
+                            <img src={img42} alt="Picture" className="w-full" />
                         </div>
                         <div className='font-semibold py-2'>
                             <p>Power hammer tool</p>
@@ -93,7 +101,7 @@ const Body = () => {
                     </div>
                     <div>
                         <div className="">
-                            <img src="/src/Pic/39.png" alt="Picture" className="w-full" />
+                            <img src={img39} alt="Picture" className="w-full" />
                         </div>
                         <div className='font-semibold py-2'>
                             <p>Power hammer tool</p>
@@ -102,7 +110,7 @@ const Body = () => {
                     </div>
                     <div>
                         <div className="">
-                            <img src="/src/Pic/40.png" alt="Picture" className="w-full" />
+                            <img src={img40} alt="Picture" className="w-full" />
                         </div>
                         <div className='font-semibold py-2'>
                             <p>Power hammer tool</p>

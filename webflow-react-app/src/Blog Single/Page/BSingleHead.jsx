@@ -3,6 +3,8 @@ import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
 import { HiOutlineShoppingCart } from 'react-icons/hi';
 import '/src/App.css'
 import { Link } from 'react-router-dom';
+import Head from '/src/Pic/Head.png'
+
 
 const BSingleHead = () => {
     const [ nav, setNav ] = useState(false)
@@ -17,7 +19,7 @@ const BSingleHead = () => {
                                 <AiOutlineMenu size={30} color='white'/>
                             </div>
                             <a href="/">
-                                <img src="/src/Pic/Head.png" alt="/" />
+                                <img src={Head} alt="/" />
                             </a>
                             <div className='ml-14 hidden lg:flex'>
                                 <ul className='text-white flex gap-5 font-medium'>
@@ -56,7 +58,7 @@ const BSingleHead = () => {
                     className='cuss absolute right-4 top-4 cursor-pointer'
                 />
                 <a>
-                    <img src="/src/Pic/Head.png" alt="/" className='p-4' style={{ filter: 'brightness(0%)' }}/>
+                    <img src={Head}  alt="/" className='p-4' style={{ filter: 'brightness(0%)' }}/>
                 </a>
                 <nav className='flex justify-center shadow-2xl'>
                     <ul className='flex flex-col p-4 '>

@@ -1,5 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Head from '/src/Pic/Head.png'
+import Linkdin from '/src/Pic/16.png'
+import x from '/src/Pic/17.png'
 
 const Footer = () => {
     return (
@@ -7,11 +10,11 @@ const Footer = () => {
             <div className='py-8 md:py-14 lg:py-20 max-w-[1300px] mx-auto'>
                 <div className='grid gap-2 mx-auto grid-flow-col place-content-between'>
                     <div>
-                        <img src="/src/Pic/Head.png" alt="" />
+                        <img src={Head} alt="" />
                     </div>
                     <div className='flex gap-3'>
-                        <img src="/src/Pic/16.png" alt="" />
-                        <img src="/src/Pic/17.png" alt="" className='pl-0 md:pl-5'/>
+                        <img src={Linkdin} alt="" />
+                        <img src={x} alt="" className='pl-0 md:pl-5'/>
                     </div>
                 </div>
                 <div className='text-white pt-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-9'>

@@ -1,5 +1,9 @@
 import React from 'react'
 import { BsArrowRight } from 'react-icons/bs'
+import img34 from '/src/Pic/34.png'
+import img18 from '/src/Pic/18.png'
+import img11 from '/src/Pic/11.png'
+import img22 from '/src/Pic/22.png'
 
 const Body = () => {
     return (
@@ -21,7 +25,7 @@ const Body = () => {
                                 <p className=' text-sm'>Mauris laoreet sagittis velit, eget pretium nisl tristique sed. Aliquam egestas elit in quam commodo gravida. Aenean gravida arcu vitae arcu bibendum, quis tempor dui imperdiet. Aenean aliquam turpis vitae lectus dignissim, et lobortis lacus luctus. Ut a placerat massa. Vestibulum mollis velit vel velit venenatis convallis. Phasellus lobortis sollicitudin nisi sed lacinia. Vestibulum quis ullamcorper lectus. Integer imperdiet, eros a sodales blandit, arcu nibh pulvinar lorem, quis rutrum quam elit non erat. Sed sed nunc ornare, vulputate leo sed, semper elit.Mauris laoreet sagittis velit, eget pretium nisl tristique sed. Aliquam egestas elit in quam commodo gravida. Aenean gravida arcu vitae arcu bibendum, quis tempor dui imperdiet. Aenean aliquam turpis vitae lectus dignissim, et lobortis lacus luctus. Ut a placerat massa.</p>
                             </div>
                             <div>
-                                <img src="/src/Pic/34.png" alt="" className=' w-full'/>
+                                <img src={img34} alt="" className=' w-full'/>
                             </div>
                             <div className='pt-7'>
                                 <p className='text-sm'>Ut id posuere dui, id commodo leo. Aenean malesuada arcu sollicitudin, venenatis justo ac, mattis ex. Ut id posuere dui, id commodo leo. Ut id posuere dui, id commodo leo. Aenean malesuada arcu sollicitudin.Ut id posuere dui, id commodo leo.</p>
@@ -34,14 +38,14 @@ const Body = () => {
                             <div className='grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-6 lg:gap-14'>
                                 <div className='pt-6 md:pt-0 max-w-[430px] md:max-w-fit'>
                                     <div className=''>
-                                        <img src="/src/Pic/18.png" alt=""/>
+                                        <img src={img18} alt=""/>
                                     </div>
                                     <div className='py-3'><h1 className='font-semibold text-xl'>Construction Service</h1></div>
                                     <div><p className='leading-snug text-[#1C1A17]'>Proin iaculis quam a elementum pharetra. Nunc tempus ipsum lectus, ac cursus libero sodales aenean sed.</p></div>
                                 </div>
                                 <div className='pt-6 md:pt-0 max-w-[430px] md:max-w-fit'>
                                     <div className=''>
-                                        <img src="/src/Pic/11.png" alt=""/>
+                                        <img src={img11} alt=""/>
                                     </div>
                                     <div className='py-3'><h1 className='font-semibold text-xl'>Construction Service</h1></div>
                                     <div><p className='leading-snug text-[#1C1A17]'>Proin iaculis quam a elementum pharetra. Nunc tempus ipsum lectus, ac cursus libero sodales aenean sed.</p></div>
@@ -85,7 +89,7 @@ const Body = () => {
                     <div className=' py-16 grid grid-cols-1 mx-auto md:mx-0 md:grid-cols-2 lg:grid-cols-3 gap-7 md:gap-5 lg:gap-10'>
                         <div className=' max-w-[450px] border border-[#EEF1F3]'>
                             <div>
-                                <img src="/src/Pic/22.png" alt="" className=' w-full'/>
+                                <img src={img22} alt="" className=' w-full'/>
                             </div>
                             
                             <div className=' p-3 md:p-5 flex flex-col justify-center'>
@@ -99,7 +103,7 @@ const Body = () => {
                         </div>
                         <div className=' max-w-[450px] border border-[#EEF1F3]'>
                             <div>
-                                <img src="/src/Pic/22.png" alt="" className=' w-full'/>
+                                <img src={img22} alt="" className=' w-full'/>
                             </div>
                             
                             <div className=' p-3 md:p-5 flex flex-col justify-center'>
@@ -114,7 +118,7 @@ const Body = () => {
                         <div className=' max-w-[450px] border border-[#EEF1F3]'>
                             <div className='relative'>
                                 <div>
-                                    <img src="/src/Pic/22.png" alt="" className=' w-full'/>
+                                    <img src={img22} alt="" className=' w-full'/>
                                 </div>
                             </div>
                             <div className=' p-3 md:p-5 flex flex-col justify-center'>

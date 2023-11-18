@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import img44 from '/src/Pic/44.png'
+import img45 from '/src/Pic/45.png'
 
 const Body = () => {
     return (
@@ -92,7 +94,7 @@ const Body = () => {
                                 <div className='flex justify-between items-center'>
                                     <div className='flex gap-3 md:p-5 items-center'>
                                         <div>
-                                            <img src="/src/Pic/44.png" alt="" />
+                                            <img src={img44} alt="" />
                                         </div>
                                         <div>
                                             <p>Voltage Tester</p>
@@ -108,7 +110,7 @@ const Body = () => {
                                 <div className='flex justify-between items-center'>
                                     <div className='flex gap-3 md:p-5 items-center'>
                                         <div>
-                                            <img src="/src/Pic/45.png" alt="" />
+                                            <img src={img45} alt="" />
                                         </div>
                                         <div>
                                             <p>Digital Multimeter</p>

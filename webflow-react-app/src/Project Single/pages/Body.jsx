@@ -1,4 +1,8 @@
 import React from 'react'
+import eight from '/src/Pic/8.png'
+import nine from '/src/Pic/9.png'
+import ten from '/src/Pic/10.png'
+import img32 from '/src/Pic/32.png'
 
 const Body = () => {
     return (
@@ -7,13 +11,13 @@ const Body = () => {
                 <div className='block md:grid grid-cols-2 gap-5'>
                     <div className=''>
                         <div>
-                            <img src="/src/Pic/32.png" alt=""/>
+                            <img src={img32} alt=""/>
                         </div>
                         <div className='pt-0 md:py-8 hidden md:block'>
-                            <img src="/src/Pic/32.png" alt=""/>
+                            <img src={img32} alt=""/>
                         </div>
                         <div className=' hidden md:block lg:hidden'>
-                            <img src="/src/Pic/32.png" alt=""/>
+                            <img src={img32} alt=""/>
                         </div>
                     </div>
                     <div className='text-[#1C1A17] flex flex-col justify-center pt-10 md:pt-0'>
@@ -49,7 +53,7 @@ const Body = () => {
                 <div className=' py-16 grid grid-cols-1 mx-auto md:mx-0 md:grid-cols-2 lg:grid-cols-3 gap-7 md:gap-5 lg:gap-10'>
                     <div className='hover:scale-105 duration-300'>
                         <div className="relative">
-                            <img src="/src/Pic/8.png" alt="Picture" className="w-full" />
+                            <img src={eight} alt="Picture" className="w-full" />
                             <div className="px-1 md:px-3 py-4 md:py-6 rounded bg-white absolute bottom-7 left-[8%] z-10 text-center w-5/6 hover:scale-105 duration-300 cursor-pointer">
                                 <p className="font-semibold">Hotel Construction</p>
                                 <span className='text-[#FC5623] font-medium'>Construction</span>
@@ -58,7 +62,7 @@ const Body = () => {
                     </div>
                     <div className='hover:scale-105 duration-300'>
                         <div className="relative">
-                            <img src="/src/Pic/9.png" alt="Picture" className="w-full" />
+                            <img src={nine} alt="Picture" className="w-full" />
                             <div className="px-1 md:px-3 py-4 md:py-6 rounded bg-white absolute bottom-7 left-[8%] z-10 text-center w-5/6 hover:scale-105 duration-300 cursor-pointer">
                                 <p className="font-semibold">Hotel Construction</p>
                                 <span className='text-[#FC5623] font-medium'>Construction</span>
@@ -67,7 +71,7 @@ const Body = () => {
                     </div>
                     <div className='hover:scale-105 duration-300'>
                         <div className="relative">
-                            <img src="/src/Pic/10.png" alt="Picture" className="w-full" />
+                            <img src={ten} alt="Picture" className="w-full" />
                             <div className="px-1 md:px-3 py-4 md:py-6 rounded bg-white absolute bottom-7 left-[8%] z-10 text-center w-5/6 hover:scale-105 duration-300 cursor-pointer">
                                 <p className="font-semibold">Hotel Construction</p>
                                 <span className='text-[#FC5623] font-medium'>Construction</span>

@@ -1,5 +1,6 @@
 import React from 'react'
 import { BsArrowRight } from 'react-icons/bs'
+import img22 from '/src/Pic/22.png'
 
 const Blog = () => {
     return (
@@ -11,7 +12,7 @@ const Blog = () => {
                 <div className='py-16 grid grid-cols-1 mx-auto md:mx-0 md:grid-cols-2 lg:grid-cols-3 gap-7 md:gap-5 lg:gap-10'>
                     <div className=' max-w-[450px] border border-[#EEF1F3] relative'>
                         <div>
-                            <img src="/src/Pic/22.png" alt="" className=' w-full'/>
+                            <img src={img22} alt="" className=' w-full'/>
                         </div>
                         
                         <div className=' p-3 md:p-5'>
@@ -25,7 +26,7 @@ const Blog = () => {
                     </div>
                     <div className=' max-w-[450px] border border-[#EEF1F3] relative'>
                         <div>
-                            <img src="/src/Pic/22.png" alt="" className=' w-full'/>
+                            <img src={img22} alt="" className=' w-full'/>
                         </div>
                         
                         <div className=' p-3 md:p-5'>
@@ -40,7 +41,7 @@ const Blog = () => {
                     <div className=' max-w-[450px] border border-[#EEF1F3]'>
                         <div className='relative'>
                             <div>
-                                <img src="/src/Pic/22.png" alt="" className=' w-full'/>
+                                <img src={img22} alt="" className=' w-full'/>
                             </div>
                             <div className="p-2 rounded bg-white absolute top-3 right-3">
                                 <p className="font-medium">New</p>

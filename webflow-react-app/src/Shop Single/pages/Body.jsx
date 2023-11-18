@@ -1,6 +1,10 @@
 import React from 'react'
 import { BsArrowRight } from 'react-icons/bs'
 import { Link } from 'react-router-dom';
+import img4 from '/src/Pic/4.png'
+import img3 from '/src/Pic/3.png'
+import img5 from '/src/Pic/5.png'
+import img41 from '/src/Pic/41.png'
 
 const Body = () => {
     return (
@@ -9,7 +13,7 @@ const Body = () => {
                 <div className=' block lg:grid grid-cols-7 gap-5'>
                     <div className=' col-span-3 pr-28 md:pr-48 lg:pr-14'>
                         <div className="relative">
-                            <img src="/src/Pic/3.png" alt="Picture" className="w-full" />
+                            <img src={img3} alt="Picture" className="w-full" />
                             <div className="px-3 py-1 rounded bg-white absolute top-2 right-2 z-10">
                                 <p className="">New</p>
                             </div>
@@ -52,7 +56,7 @@ const Body = () => {
                     <div className='pt-16 grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-6 lg:gap-12'>
                         <div>
                             <div className="">
-                                <img src="/src/Pic/4.png" alt="Picture" className="w-full" />
+                                <img src={img4} alt="Picture" className="w-full" />
                             </div>
                             <div className='font-semibold py-2'>
                                 <p>Power hammer tool</p>
@@ -61,7 +65,7 @@ const Body = () => {
                         </div>
                         <div>
                             <div className="relative">
-                                <img src="/src/Pic/5.png" alt="Picture" className="w-full" />
+                                <img src={img5} alt="Picture" className="w-full" />
                                 <div className="px-3 py-1 rounded bg-white absolute top-2 right-2 z-10">
                                     <p className="">New</p>
                                 </div>
@@ -79,7 +83,7 @@ const Body = () => {
                         </div>
                         <div>
                             <div className="relative">
-                                <img src="/src/Pic/41.png" alt="Picture" className="w-full" />
+                                <img src={img41} alt="Picture" className="w-full" />
                                 <div className="px-3 py-1 rounded bg-white absolute top-2 right-2 z-10">
                                     <p className="">New</p>
                                 </div>

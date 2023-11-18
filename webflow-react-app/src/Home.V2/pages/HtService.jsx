@@ -1,5 +1,8 @@
 import React from 'react'
 import { BsArrowRight } from 'react-icons/bs'
+import img18 from '/src/Pic/18.png'
+import img19 from '/src/Pic/19.png'
+import img20 from '/src/Pic/20.png'
 
 const HtService = () => {
     return (
@@ -9,7 +12,7 @@ const HtService = () => {
                     <div className=' '>
                         <div className='p-3 md:p-6 lg:p-10 bg-white hover:shadow-lg shadow-md md:shadow-none  max-w-[400px] rounded mx-auto md:mx-0'>
                             <div className=''>
-                                <img src="/src/Pic/18.png" alt=""/>
+                                <img src={img18} alt=""/>
                             </div>
                             <div className='py-3'><h1 className='font-semibold text-xl'>Construction Service</h1></div>
                             <div className='flex gap-2 pt-3 items-center'>
@@ -21,7 +24,7 @@ const HtService = () => {
                     <div className=' '>
                         <div className='p-3 md:p-6 lg:p-10 bg-white hover:shadow-lg shadow-md md:shadow-none max-w-[400px] md:max-w-[400px] rounded mx-auto md:mx-0'>
                             <div className=''>
-                                <img src="/src/Pic/19.png" alt=""/>
+                                <img src={img19} alt=""/>
                             </div>
                             <div className='py-3'><h1 className='font-semibold text-xl'>Construction Service</h1></div>
                             <div className='flex gap-2 pt-3 items-center'>
@@ -33,7 +36,7 @@ const HtService = () => {
                     <div className=' '>
                         <div className='p-3 md:p-6 lg:p-10 bg-white hover:shadow-lg shadow-md md:shadow-none max-w-[400px] md:max-w-[400px] rounded mx-auto md:mx-0'>
                             <div className=''>
-                                <img src="/src/Pic/20.png" alt=""/>
+                                <img src={img20} alt=""/>
                             </div>
                             <div className='py-3'><h1 className='font-semibold text-xl'>Construction Service</h1></div>
                             <div className='flex gap-2 pt-3 items-center'>

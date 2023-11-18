@@ -1,4 +1,6 @@
 import React from 'react'
+import img31 from '/src/Pic/31.png'
+import img19 from '/src/Pic/19.png'
 
 const Body = () => {
   return (
@@ -19,7 +21,7 @@ const Body = () => {
               <p className=' text-sm'>Mauris laoreet sagittis velit, eget pretium nisl tristique sed. Aliquam egestas elit in quam commodo gravida. Aenean gravida arcu vitae arcu bibendum, quis tempor dui imperdiet. Aenean aliquam turpis vitae lectus dignissim, et lobortis lacus luctus. Ut a placerat massa. Vestibulum mollis velit vel velit venenatis convallis. Phasellus lobortis sollicitudin nisi sed lacinia. Vestibulum quis ullamcorper lectus. Integer imperdiet, eros a sodales blandit, arcu nibh pulvinar lorem, quis rutrum quam elit non erat. Sed sed nunc ornare, vulputate leo sed, semper elit.Mauris laoreet sagittis velit, eget pretium nisl tristique sed. Aliquam egestas elit in quam commodo gravida. Aenean gravida arcu vitae arcu bibendum, quis tempor dui imperdiet. Aenean aliquam turpis vitae lectus dignissim, et lobortis lacus luctus. Ut a placerat massa.</p>
             </div>
             <div>
-              <img src="/src/Pic/31.png" alt="" className=' w-full'/>
+              <img src={img31} alt="" className=' w-full'/>
             </div>
             <div className='py-7'>
               <p className=' text-sm'>Mauris laoreet sagittis velit, eget pretium nisl tristique sed. Aliquam egestas elit in quam commodo gravida. Aenean gravida arcu vitae arcu bibendum, quis tempor dui imperdiet. Aenean aliquam turpis vitae lectus dignissim, et lobortis lacus luctus. Ut a placerat massa. Vestibulum mollis velit vel velit venenatis convallis. Phasellus lobortis sollicitudin nisi sed lacinia. Vestibulum quis ullamcorper lectus. Integer imperdiet, eros a sodales blandit, arcu nibh pulvinar lorem, quis rutrum quam elit non erat. Sed sed nunc ornare, vulputate leo sed, semper elit.Mauris laoreet sagittis velit, eget pretium nisl tristique sed. Aliquam egestas elit in quam commodo gravida. Aenean gravida arcu vitae arcu bibendum, quis tempor dui imperdiet. Aenean aliquam turpis vitae lectus dignissim, et lobortis lacus luctus. Ut a placerat massa.</p>

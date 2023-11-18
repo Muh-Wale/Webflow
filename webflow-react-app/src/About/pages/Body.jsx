@@ -1,6 +1,11 @@
 import React from 'react'
 import { BsArrowRight } from 'react-icons/bs'
 import { Link } from 'react-router-dom'
+import two from '/src/Pic/2.png'
+import img15 from '/src/Pic/15.png'
+import img18 from '/src/Pic/18.png'
+import img19 from '/src/Pic/19.png'
+import img20 from '/src/Pic/20.png'
 
 const Body = () => {
     return (
@@ -8,7 +13,7 @@ const Body = () => {
             <div className='py-20 max-w-[1300px] mx-auto'>
                 <div className='block lg:grid lg:grid-cols-4 w-full lg:gap-2 lg:static'>
                     <div className='lg:col-span-2 grid place-content-center'>
-                        <img src="/src/Pic/2.png" alt="/" className='w-[460px] md:w-[500px] lg:w-fit'/>
+                        <img src={two} alt="/" className='w-[460px] md:w-[500px] lg:w-fit'/>
                     </div>
                     <div className='w-full col-span-2 lg:flex justify-center md:block'>
                         <div 
@@ -33,7 +38,7 @@ const Body = () => {
                 <div className='grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-6 lg:gap-12'>
                     <div className='grid place-content-center md:block px-3 md:px-0'>
                         <div className="relative">
-                            <img src="/src/Pic/15.png" alt="Picture" />
+                            <img src={img15} alt="Picture" />
                             <div className="p-3 rounded bg-white absolute bottom-7 left-7 z-10">
                                 <p className="font-semibold">CEO</p>
                             </div>
@@ -41,7 +46,7 @@ const Body = () => {
                     </div>
                     <div className='grid place-content-center md:block px-3 md:px-0'>
                         <div className='relative'>
-                            <img src="/src/Pic/15.png" alt="Picture"/>
+                            <img src={img15} alt="Picture"/>
                             <div className="p-3 rounded bg-white absolute bottom-7 left-7 z-10">
                                 <p className="font-semibold">Project Manager</p>
                             </div>
@@ -50,7 +55,7 @@ const Body = () => {
                     </div>
                     <div className='grid place-content-center md:block px-3 md:px-0'>
                         <div className='relative'>
-                            <img src="/src/Pic/15.png" alt="Picture"/>
+                            <img src={img15} alt="Picture"/>
                             <div className="p-3 rounded bg-white absolute bottom-7 left-7 z-10">
                                 <p className="font-semibold">Architect</p>
                             </div>
@@ -72,7 +77,7 @@ const Body = () => {
                     <div className='grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-6 lg:gap-14'>
                         <div className='pt-6 md:pt-0'>
                             <div className=''>
-                                <img src="/src/Pic/18.png" alt=""/>
+                                <img src={img18} alt=""/>
                             </div>
                             <div className='py-3'><h1 className='font-semibold text-xl'>Construction Service</h1></div>
                             <div><p className='leading-snug'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi vel placeat modi eveniet optio amet omnis laborum beatae tempore similique.</p></div>
@@ -83,7 +88,7 @@ const Body = () => {
                         </div>
                         <div className='pt-6 md:pt-0'>
                             <div className=''>
-                                <img src="/src/Pic/11.png" alt=""/>
+                                <img src={img19} alt=""/>
                             </div>
                             <div className='py-3'><h1 className='font-semibold text-xl'>Construction Service</h1></div>
                             <div><p className='leading-snug'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi vel placeat modi eveniet optio amet omnis laborum beatae tempore similique.</p></div>
@@ -94,7 +99,7 @@ const Body = () => {
                         </div>
                         <div className='pt-6 md:pt-0'>
                             <div className=''>
-                                <img src="/src/Pic/12.png" alt=""/>
+                                <img src={img20} alt=""/>
                             </div>
                             <div className='py-3'><h1 className='font-semibold text-xl'>Construction Service</h1></div>
                             <div><p className='leading-snug'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi vel placeat modi eveniet optio amet omnis laborum beatae tempore similique.</p></div>

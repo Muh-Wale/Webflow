@@ -1,4 +1,9 @@
 import React from 'react'
+import img15 from '/src/Pic/15.png'
+import img18 from '/src/Pic/18.png'
+import img19 from '/src/Pic/19.png'
+import img20 from '/src/Pic/20.png'
+
 
 const Body = () => {
     return (
@@ -6,7 +11,7 @@ const Body = () => {
             <div className='py-6 md:py-20 max-w-[1300px] mx-auto block lg:grid grid-cols-5 gap-8'>
                 <div className='col-span-2'>
                     <div className="relative">
-                        <img src="/src/Pic/15.png" alt="Picture" className='rounded'/>
+                        <img src={img15} alt="Picture" className='rounded'/>
                         <div className="p-3 rounded bg-white absolute bottom-7 left-7">
                             <p className="font-semibold">Customer Service</p>
                         </div>
@@ -36,21 +41,21 @@ const Body = () => {
                 <div className='grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-6 lg:gap-14'>
                     <div className=' flex flex-col justify-center md:block pt-6 md:pt-0 max-w-[450px] md:max-w-fit'>
                         <div className=''>
-                            <img src="/src/Pic/18.png" alt=""/>
+                            <img src={img18} alt=""/>
                         </div>
                         <div className='py-3'><h1 className='font-semibold text-xl'>Call Us</h1></div>
                         <div><p className='leading-snug text-[#1C1A17] md:text-left'>We’re available 24/7 for your work inquiries on the following nr: <br /> (420) 428-8000</p></div>
                     </div>
                     <div className=' flex flex-col justify-center md:block pt-6 md:pt-0 max-w-[450px] md:max-w-fit'>
                         <div className=''>
-                            <img src="/src/Pic/11.png" alt=""/>
+                            <img src={img19} alt=""/>
                         </div>
                         <div className='py-3'><h1 className='font-semibold text-xl'>Visit Us</h1></div>
                         <div><p className='leading-snug text-[#1C1A17] md:text-left'>Visit us in our offices at: 1 First American Way, Santa Ana, CA, 92707</p></div>
                     </div>
                     <div className=' flex flex-col justify-center md:block pt-6 md:pt-0 max-w-[450px] md:max-w-fit'>
                         <div className=''>
-                            <img src="/src/Pic/12.png" alt=""/>
+                            <img src={img20} alt=""/>
                         </div>
                         <div className='py-3'><h1 className='font-semibold text-xl'>Contact Us</h1></div>
                         <div><p className='leading-snug text-[#1C1A17] md:text-left'>Alternatively, you can send us email to info@startui.wf and we’ll answer you shortly.</p></div>

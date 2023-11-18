@@ -1,6 +1,7 @@
 import React from 'react'
 import { BsArrowRight } from 'react-icons/bs'
 import { Link } from 'react-router-dom'
+import img30 from '/src/Pic/30.png'
 
 const Body = () => {
     return (
@@ -9,7 +10,7 @@ const Body = () => {
                 <div className='grid grid-cols-1 mx-auto md:mx-0 md:grid-cols-2 lg:grid-cols-3 gap-7 md:gap-5 lg:gap-10'>
                     <div className=' max-w-[450px] hover:shadow-lg duration-300 rounded'>
                         <div>
-                            <img src="/src/Pic/30.png" alt="" className=' w-full h-[250px]'/>
+                            <img src={img30} alt="" className=' w-full h-[250px]'/>
                         </div>
                         <div className=' p-3 md:p-5'>
                             <h1 className=' font-semibold text-lg'>2021 Building Trends</h1>
@@ -22,7 +23,7 @@ const Body = () => {
                     </div>
                     <div className=' max-w-[450px] hover:shadow-lg duration-300 rounded'>
                         <div>
-                            <img src="/src/Pic/30.png" alt="" className=' w-full h-[250px]'/>
+                            <img src={img30} alt="" className=' w-full h-[250px]'/>
                         </div>
                         <div className=' p-3 md:p-5'>
                             <h1 className=' font-semibold text-lg'>2021 Building Trends</h1>
@@ -35,7 +36,7 @@ const Body = () => {
                     </div>
                     <div className=' max-w-[450px] hover:shadow-lg duration-300 rounded'>
                         <div>
-                            <img src="/src/Pic/30.png" alt="" className=' w-full h-[250px]'/>
+                            <img src={img30} alt="" className=' w-full h-[250px]'/>
                         </div>
                         <div className=' p-3 md:p-5'>
                             <h1 className=' font-semibold text-lg'>2021 Building Trends</h1>
@@ -48,7 +49,7 @@ const Body = () => {
                     </div>
                     <div className=' max-w-[450px] hover:shadow-lg duration-300 rounded'>
                         <div>
-                            <img src="/src/Pic/30.png" alt="" className=' w-full h-[250px]'/>
+                            <img src={img30} alt="" className=' w-full h-[250px]'/>
                         </div>
                         <div className=' p-3 md:p-5'>
                             <h1 className=' font-semibold text-lg'>2021 Building Trends</h1>
@@ -61,7 +62,7 @@ const Body = () => {
                     </div>
                     <div className=' max-w-[450px] hover:shadow-lg duration-300 rounded'>
                         <div>
-                            <img src="/src/Pic/30.png" alt="" className=' w-full h-[250px]'/>
+                            <img src={img30} alt="" className=' w-full h-[250px]'/>
                         </div>
                         <div className=' p-3 md:p-5'>
                             <h1 className=' font-semibold text-lg'>2021 Building Trends</h1>
@@ -74,7 +75,7 @@ const Body = () => {
                     </div>
                     <div className=' max-w-[450px] hover:shadow-lg duration-300 rounded'>
                         <div>
-                            <img src="/src/Pic/30.png" alt="" className=' w-full h-[250px]'/>
+                            <img src={img30} alt="" className=' w-full h-[250px]'/>
                         </div>
                         <div className=' p-3 md:p-5'>
                             <h1 className=' font-semibold text-lg'>2021 Building Trends</h1>

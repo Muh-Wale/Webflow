@@ -2,6 +2,10 @@ import React from 'react'
 import { TiTick } from 'react-icons/ti'
 import { BsArrowRight } from 'react-icons/bs'
 import { Link } from 'react-router-dom'
+import two from '/src/Pic/2.png'
+import four from '/src/Pic/4.png'
+import three from '/src/Pic/3.png'
+import five from '/src/Pic/5.png'
 
 const HtBody = () => {
     return (
@@ -9,7 +13,7 @@ const HtBody = () => {
             <div className='py-20 max-w-[1300px] mx-auto'>
                 <div className='block lg:grid lg:grid-cols-4 w-full lg:gap-2 lg:static'>
                     <div className='lg:col-span-2 grid place-content-center'>
-                        <img src="/src/Pic/2.png" alt="/" className='w-[460px] md:w-[500px] lg:w-fit'/>
+                        <img src={two} alt="/" className='w-[460px] md:w-[500px] lg:w-fit'/>
                     </div>
                     <div className='w-full col-span-2 lg:flex justify-center md:block'>
                         <div 
@@ -44,7 +48,7 @@ const HtBody = () => {
                 <div className='py-16 grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-6 lg:gap-12'>
                     <div>
                         <div className="relative">
-                            <img src="/src/Pic/4.png" alt="Picture" className="w-full" />
+                            <img src={four} alt="Picture" className="w-full" />
                             <div className="px-3 py-1 rounded bg-white absolute top-2 right-2 z-10">
                                 <p className="">New</p>
                             </div>
@@ -56,7 +60,7 @@ const HtBody = () => {
                     </div>
                     <div>
                         <div className="relative">
-                            <img src="/src/Pic/3.png" alt="Picture" className="w-full" />
+                            <img src={three} alt="Picture" className="w-full" />
                             <div className="px-3 py-1 rounded bg-white absolute top-2 right-3 z-10">
                                 <p className="">New</p>
                             </div>
@@ -74,7 +78,7 @@ const HtBody = () => {
                     </div>
                     <div>
                         <div className="relative">
-                            <img src="/src/Pic/5.png" alt="Picture" className="w-full" />
+                            <img src={five} alt="Picture" className="w-full" />
                             <div className="px-3 py-1 rounded bg-white absolute top-2 right-2 z-10">
                                 <p className="">New</p>
                             </div>

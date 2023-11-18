@@ -63,7 +63,7 @@ const HHead = () => {
                     className='cuss absolute right-4 top-4 cursor-pointer'
                 />
                 <a>
-                    <img src="/src/Pic/Head.png" alt="/" className='p-4' style={{ filter: 'brightness(0%)' }}/>
+                    <img src={Head} alt="/" className='p-4' style={{ filter: 'brightness(0%)' }}/>
                 </a>
                 <nav className='flex justify-center shadow-2xl'>
                     <ul className='flex flex-col p-4 '>
