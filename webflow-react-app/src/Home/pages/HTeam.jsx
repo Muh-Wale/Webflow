@@ -1,4 +1,6 @@
 import React from 'react'
+import img14 from '/src/Pic/14.png'
+import img15 from '/src/Pic/15.png'
 
 const HTeam = () => {
     return (
@@ -6,7 +8,7 @@ const HTeam = () => {
             <div className='py-20 px-7'>
                 <div className=' text-center'>
                     <div className=' flex justify-center'>
-                        <img src="/src/Pic/14.png" alt="#" className=' rounded-full'/>
+                        <img src={img14} alt="#" className=' rounded-full'/>
                     </div>
                     <div className='py-10'>
                         <p className='font font-semibold text-lg leading-normal md:leading-4'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, iure odio. <span className='hidden md:block'><br /></span>Ullam animi aspernatur minima impedit? Ipsa totam ratione tempora <span className='hidden md:block'><br /></span>sed, impedit ipsam harum! Enim?</p>
@@ -22,7 +24,7 @@ const HTeam = () => {
                 <div className='py-16 grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-6 lg:gap-12'>
                     <div className='grid place-content-center md:block px-3 md:px-0'>
                         <div className="relative">
-                            <img src="/src/Pic/15.png" alt="Picture" />
+                            <img src={img15} alt="Picture" />
                             <div className="p-3 rounded bg-white absolute bottom-7 left-7 z-10">
                                 <p className="font-semibold">CEO</p>
                             </div>
@@ -31,7 +33,7 @@ const HTeam = () => {
                     </div>
                     <div className='grid place-content-center md:block px-3 md:px-0'>
                         <div className='relative'>
-                            <img src="/src/Pic/15.png" alt="Picture"/>
+                            <img src={img15} alt="Picture"/>
                             <div className="p-3 rounded bg-white absolute bottom-7 left-7 z-10">
                                 <p className="font-semibold">Project Manager</p>
                             </div>
@@ -40,7 +42,7 @@ const HTeam = () => {
                     </div>
                     <div className='grid place-content-center md:block px-3 md:px-0'>
                         <div className='relative'>
-                            <img src="/src/Pic/15.png" alt="Picture"/>
+                            <img src={img15} alt="Picture"/>
                             <div className="p-3 rounded bg-white absolute bottom-7 left-7 z-10">
                                 <p className="font-semibold">Architect</p>
                             </div>

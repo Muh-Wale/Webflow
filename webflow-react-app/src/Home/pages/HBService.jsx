@@ -1,6 +1,9 @@
 import React from 'react'
 import { BsArrowRight } from 'react-icons/bs'
 import { Link } from 'react-router-dom'
+import img13 from '/src/Pic/13.png'
+import img14 from '/src/Pic/11.png'
+import img15 from '/src/Pic/12.png'
 
 const HBService = () => {
     return (
@@ -8,7 +11,7 @@ const HBService = () => {
             <div className='py-8 md:py-14 lg:py-20 max-w-[1300px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-6 lg:gap-12'>
                 <div className='text-white pt-6 md:pt-0'>
                     <div className=''>
-                        <img src="/src/Pic/13.png" alt=""/>
+                        <img src={img13} alt=""/>
                     </div>
                     <div className='py-3'><h1 className='font-semibold text-xl'>Construction Service</h1></div>
                     <div><p className='leading-snug'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi vel placeat modi eveniet optio amet omnis laborum beatae tempore similique.</p></div>
@@ -19,7 +22,7 @@ const HBService = () => {
                 </div>
                 <div className='text-white pt-6 md:pt-0'>
                     <div className=''>
-                        <img src="/src/Pic/11.png" alt=""/>
+                        <img src={img14} alt=""/>
                     </div>
                     <div className='py-3'><h1 className='font-semibold text-xl'>Construction Service</h1></div>
                     <div><p className='leading-snug'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi vel placeat modi eveniet optio amet omnis laborum beatae tempore similique.</p></div>
@@ -30,7 +33,7 @@ const HBService = () => {
                 </div>
                 <div className='text-white pt-6 md:pt-0'>
                     <div className=''>
-                        <img src="/src/Pic/12.png" alt=""/>
+                        <img src={img15} alt=""/>
                     </div>
                     <div className='py-3'><h1 className='font-semibold text-xl'>Construction Service</h1></div>
                     <div><p className='leading-snug'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi vel placeat modi eveniet optio amet omnis laborum beatae tempore similique.</p></div>

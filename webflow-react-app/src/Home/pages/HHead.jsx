@@ -2,7 +2,7 @@ import React, { useState }  from 'react'
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
 import { HiOutlineShoppingCart } from 'react-icons/hi';
 import { Link } from 'react-router-dom'
-import img1 from '/src/Pic/Head.png'
+import Head from '/src/Pic/Head.png'
 import '/src/App.css'
 
 const HHead = () => {
@@ -18,7 +18,7 @@ const HHead = () => {
                                 <AiOutlineMenu size={30} color='white'/>
                             </div>
                             <a href="/">
-                                <img src={img1} />
+                                <img src={Head} />
                             </a>
                             <div className='ml-14 hidden lg:flex'>
                                 <ul className='text-white flex gap-5 font-medium'>

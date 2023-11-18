@@ -1,6 +1,9 @@
 import React from 'react'
 import { BsArrowRight } from 'react-icons/bs'
 import { Link } from 'react-router-dom'
+import six from '/src/Pic/6.png'
+import seven from '/src/Pic/7.png'
+
 
 const HService = () => {
     return (
@@ -8,7 +11,7 @@ const HService = () => {
             <div className='py-8 md:py-14 lg:py-20 max-w-[1300px] mx-auto grid  grid-cols-4 md:grid-cols-8 gap-2'>
                 <div className='bg-white rounded px-2 md:px-3 py-4 md:py-8 text-center col-span-2'>
                     <div className='flex justify-center'>
-                        <img src="/src/Pic/6.png" alt=""/>
+                        <img src={six} alt=""/>
                     </div>
                     <div className='py-2 lg:py-4'><h1 className='font-semibold text-xl'>Service One</h1></div>
                     <div><p className='leading-snug lg:leading-loose'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, corrupti la mason.</p></div>
@@ -21,7 +24,7 @@ const HService = () => {
                 </div>
                 <div className='bg-white rounded px-2 md:px-3 py-4 md:py-8 text-center col-span-2'>
                     <div className='flex justify-center'>
-                        <img src="/src/Pic/7.png" alt=""/>
+                        <img src={seven} alt=""/>
                     </div>
                     <div className='py-2 lg:py-4'><h1 className='font-semibold text-xl'>Service Two</h1></div>
                     <div><p className='leading-snug lg:leading-loose'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, corrupti la mason.</p></div>

@@ -1,6 +1,11 @@
 import React from 'react'
 import { BsArrowRight } from 'react-icons/bs'
 import { Link } from 'react-router-dom'
+import img15 from '/src/Pic/12.png'
+import Head from '/src/Pic/Head.png'
+import Linkdin from '/src/Pic/16.png'
+import x from '/src/Pic/17.png'
+
 
 const HFooter = () => {
     return (
@@ -8,7 +13,7 @@ const HFooter = () => {
             <div className='py-8 md:py-14 lg:py-20 max-w-[1300px] mx-auto'>
                 <div className='text-white py-12'>
                     <div className=''>
-                        <img src="/src/Pic/12.png" alt="" style={{ filter: 'brightness(200%)' }}/>
+                        <img src={img15} alt="" style={{ filter: 'brightness(200%)' }}/>
                     </div>
                     <div className='py-2'><h1 className='font-semibold text-xl'>Download Our Brochure</h1></div>
                     <div className='flex gap-2 items-center'>
@@ -18,11 +23,11 @@ const HFooter = () => {
                 </div>
                 <div className='grid grid-flow-col place-content-between'>
                     <div>
-                        <img src="/src/Pic/Head.png" alt="" />
+                        <img src={Head} alt="" />
                     </div>
                     <div className='flex gap-3'>
-                        <img src="/src/Pic/16.png" alt="" />
-                        <img src="/src/Pic/17.png" alt="" className='pl-0 md:pl-5'/>
+                        <img src={Linkdin} alt="" />
+                        <img src={x} alt="" className='pl-0 md:pl-5'/>
                     </div>
                 </div>
                 <div className='text-white pt-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>

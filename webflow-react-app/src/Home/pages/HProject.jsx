@@ -1,5 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import eight from '/src/Pic/8.png'
+import nine from '/src/Pic/9.png'
+import ten from '/src/Pic/10.png'
 
 const HProject = () => {
     return (
@@ -9,7 +12,7 @@ const HProject = () => {
                 <div className='py-16 grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-6 lg:gap-12'>
                     <div className='hover:scale-105 duration-300'>
                         <div className="relative">
-                            <img src="/src/Pic/8.png" alt="Picture" className="w-full" />
+                            <img src={eight} alt="Picture" className="w-full" />
                             <Link to="/projectsingle" className="px-3 py-4 md:py-6 rounded bg-white absolute bottom-7 left-[8%] z-10 text-center w-5/6 hover:scale-105 duration-300">
                                 <p className="font-semibold">Hotel Construction</p>
                                 <span className='text-[#FC5623] font-medium'>Construction</span>
@@ -18,7 +21,7 @@ const HProject = () => {
                     </div>
                     <div className='hover:scale-105 duration-300'>
                         <div className="relative">
-                            <img src="/src/Pic/9.png" alt="Picture" className="w-full" />
+                            <img src={nine} alt="Picture" className="w-full" />
                             <Link to="/projectsingle" className="px-3 py-4 md:py-6 rounded bg-white absolute bottom-7 left-[8%] z-10 text-center w-5/6 hover:scale-105 duration-300">
                                 <p className="font-semibold">Hotel Construction</p>
                                 <span className='text-[#FC5623] font-medium'>Construction</span>
@@ -27,7 +30,7 @@ const HProject = () => {
                     </div>
                     <div className='hover:scale-105 duration-300'>
                         <div className="relative">
-                            <img src="/src/Pic/10.png" alt="Picture" className="w-full" />
+                            <img src={ten} alt="Picture" className="w-full" />
                             <Link to="/projectsingle" className="px-3 py-4 md:py-6 rounded bg-white absolute bottom-7 left-[8%] z-10 text-center w-5/6 hover:scale-105 duration-300">
                                 <p className="font-semibold">Hotel Construction</p>
                                 <span className='text-[#FC5623] font-medium'>Construction</span>
