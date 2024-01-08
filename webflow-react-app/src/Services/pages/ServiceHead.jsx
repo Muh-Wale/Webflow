@@ -36,7 +36,7 @@ const ServiceHead = () => {
                                 <HiOutlineShoppingCart size={25} color='white'/>
                                 <p className='text-white'>0</p>
                             </div>
-                            <Link to="/services" className='text-white bg-[#FC5623] py-2 px-4 md:py-3 md:px-6 rounded hover:bg-white hover:text-[#FC5623] font-semibold hover:font-bold'>Our Services</Link>
+                            <Link to="/services" className='text-white bg-[#FC5623] py-2 px-4 md:py-3 md:px-6 rounded hover:bg-white hover:text-[#FC5623] font-semibold'>Our Services</Link>
                         </div>
                     </nav>
                 </div>

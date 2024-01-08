@@ -9,7 +9,7 @@ const HProject = () => {
         <div className='max-w-[1640px] mx-auto px-5 md:px-14 lg:px-24'>
             <div className='max-w-[1300px] mx-auto py-14'>
                 <h1 className='text-3xl font-semibold'>Latest Projects</h1>
-                <div className='py-16 grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-6 lg:gap-12'>
+                <div className='py-16 grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-6 lg:gap-12'>
                     <div className='hover:scale-105 duration-300'>
                         <div className="relative">
                             <img src={eight} alt="Picture" className="w-full" />

@@ -45,7 +45,7 @@ const HBody = () => {
             </div>
             <div className='max-w-[1300px] mx-auto'>
                 <h1 className='text-3xl font-semibold'>Block Products</h1>
-                <div className='py-16 grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-6 lg:gap-12'>
+                <div className='py-16 grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-6 lg:gap-12'>
                     <div>
                         <div className="relative">
                             <img src={three} alt="Picture" className="w-full" />
