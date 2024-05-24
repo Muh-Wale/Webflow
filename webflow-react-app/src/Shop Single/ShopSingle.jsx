@@ -5,8 +5,12 @@ import Footer from '../Footer/Footer'
 
 const ShopSingle = () => {
     useEffect(() => {
+
+        window.scrollTo(0, 0)
+
         const cussu = document.querySelector('.cussu');
         const cuss = document.querySelector('.cuss')
+        
         cussu.addEventListener('click', () => {
             document.body.style.overflow = 'hidden';
         });

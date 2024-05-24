@@ -46,7 +46,7 @@ const SrSingleHead = () => {
                 {/* Overlay */}
             {nav ? <div className="bg-black/80 hidden fixed w-full h-screen z-10 top-0 left-0"></div> : ''}
                 {/* Side Drawer Menu */}
-                <div className={nav ? 'fixed top-0 left-0 w-[100%] h-fit bg-white z-10 duration-300' : 'fixed top-0 left-[-100%] w-[300px] h-fit bg-white z-10 duration-300'}>
+                <div className={nav ? 'fixed top-0 left-0 w-[100%] h-fit bg-white z-[90] duration-300' : 'fixed top-0 left-[-100%] w-[300px] h-fit bg-white z-10 duration-300'}>
                 <AiOutlineClose
                     onClick={() => setNav(!nav)}
                     size={30}

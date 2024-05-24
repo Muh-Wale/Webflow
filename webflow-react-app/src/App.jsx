@@ -18,9 +18,14 @@ import Checkout from './Checkout/Checkout'
 import CheckoutPaypal from './Checkout Paypal/CheckoutPaypal'
 import OrderConfirmation from './Order Confirmation/OrderConfirmation'
 import Error from './Error/Error'
+import { useEffect } from 'react'
 
 
 function App() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   return (
     <div>

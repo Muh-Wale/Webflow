@@ -16,6 +16,8 @@ const Home = () => {
     //     };
     // }, []);}
     useEffect(() => {
+        window.scrollTo(0, 0)
+
         const cussu = document.querySelector('.cussu');
         const cuss = document.querySelector('.cuss')
         cussu.addEventListener('click', () => {
