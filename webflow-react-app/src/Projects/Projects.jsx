@@ -2,8 +2,13 @@ import React, { useEffect } from 'react'
 import ProjectHead from './pages/ProjectHead'
 import Body from './pages/Body'
 import Footer from '../Footer/Footer'
+import { Scroll_To_Top } from '../utils/functions'
 
 const Projects = () => {
+    useEffect(() => {
+        Scroll_To_Top();
+    }, [])
+
     useEffect(() => {
         const cussu = document.querySelector('.cussu');
         const cuss = document.querySelector('.cuss')

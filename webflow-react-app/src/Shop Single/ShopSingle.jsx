@@ -2,11 +2,14 @@ import React, {useEffect} from 'react'
 import Navbar from '../Navbar/Navbar'
 import Body from './pages/Body'
 import Footer from '../Footer/Footer'
+import { Scroll_To_Top } from '../utils/functions'
 
 const ShopSingle = () => {
     useEffect(() => {
+        Scroll_To_Top();
+    }, [])
 
-        window.scrollTo(0, 0)
+    useEffect(() => {
 
         const cussu = document.querySelector('.cussu');
         const cuss = document.querySelector('.cuss')

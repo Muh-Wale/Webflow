@@ -2,8 +2,13 @@ import React, {useEffect} from 'react'
 import ChPayHead from './pages/ChPayHead'
 import Body from './pages/Body'
 import Footer from '../Footer/Footer'
+import { Scroll_To_Top } from '../utils/functions'
 
 const CheckoutPaypal = () => {
+    useEffect(() => {
+        Scroll_To_Top();
+    }, [])
+    
     useEffect(() => {
         const cussu = document.querySelector('.cussu');
         const cuss = document.querySelector('.cuss')

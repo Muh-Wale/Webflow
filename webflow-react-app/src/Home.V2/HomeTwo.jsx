@@ -6,8 +6,13 @@ import HtTemplate from './pages/HtTemplate'
 import HtSubscription from './pages/HtSubscription'
 import HtProject from './pages/HtProject'
 import Footer from '../Footer/Footer'
+import { Scroll_To_Top } from '../utils/functions'
 
 const Htwo = () => {
+    useEffect(() => {
+        Scroll_To_Top();
+    }, [])
+
     useEffect(() => {
         const cussu = document.querySelector('.cussu');
         const cuss = document.querySelector('.cuss')
