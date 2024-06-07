@@ -2,12 +2,11 @@ import React, { useEffect } from 'react'
 import ContactHead from './pages/ContactHead'
 import Body from './pages/Body'
 import Footer from '../Footer/Footer'
-import { Scroll_To_Top } from '../utils/functions'
 
 
 const Contact = () => {
     useEffect(() => {
-        Scroll_To_Top();
+        window.scroll(0, 0);
     }, [])
 
     useEffect(() => {

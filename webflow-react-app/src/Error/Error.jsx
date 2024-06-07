@@ -4,13 +4,12 @@ import { HiOutlineShoppingCart } from 'react-icons/hi';
 import '/src/App.css'
 import Head from '/src/Pic/Head.png'
 import {Link} from 'react-router-dom'
-import { Scroll_To_Top } from '../utils/functions';
 
 const Error = () => {
     const [ nav, setNav ] = useState(false)
 
     useEffect(() => {
-        Scroll_To_Top();
+        window.scroll(0, 0);
     }, [])
 
     useEffect(() => {

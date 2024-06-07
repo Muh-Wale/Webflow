@@ -3,11 +3,10 @@ import BsingleHead from './Page/BSingleHead.jsx'
 import Body from './Page/Body.jsx'
 import Blog from './Page/Blog.jsx'
 import Footer from '../Footer/Footer'
-import { Scroll_To_Top } from '../utils/functions.jsx'
 
 const BlogSingle = () => {
     useEffect(() => {
-        Scroll_To_Top();
+        window.scroll(0, 0);
     }, [])
 
     useEffect(() => {

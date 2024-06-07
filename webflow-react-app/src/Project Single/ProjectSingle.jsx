@@ -2,11 +2,10 @@ import React, {useEffect} from 'react'
 import PSingleHead from './pages/PSingleHead'
 import Body from './pages/Body'
 import Footer from '../Footer/Footer'
-import { Scroll_To_Top } from '../utils/functions'
 
 const ProjectSingle = () => {
     useEffect(() => {
-        Scroll_To_Top();
+        window.scroll(0, 0);
     }, [])
 
     useEffect(() => {
