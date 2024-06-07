@@ -6,6 +6,7 @@ import HProject from './pages/HProject'
 import HBService from './pages/HBService'
 import HTeam from './pages/HTeam'
 import HFooter from './pages/HFooter'
+import { Scroll_To_Top } from '../utils/functions'
 
 
 const Home = () => {
@@ -16,8 +17,8 @@ const Home = () => {
     //     };
     // }, []);}
     useEffect(() => {
-        window.scroll(0,0);
-    })
+        Scroll_To_Top();
+    }, [])
 
     useEffect(() => {
 
