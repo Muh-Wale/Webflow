@@ -1,3 +1,5 @@
 export const Scroll_To_Top = () => {
-    return window.scroll(0,0);
-}
+    if (typeof window !== 'undefined') {
+        window.scroll(0, 0);
+    }
+};
